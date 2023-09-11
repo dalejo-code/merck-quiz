@@ -1,0 +1,23 @@
+$bg: #ffffff;
+$card-bg: #c4c4c4;
+$font-color: #6021b1;
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+}
+.respuestas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.respuesta {
+  display: flex;
+  width: 355px;
+  height: 267px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: $card-bg;
+  border-radius: 16px;
+}
