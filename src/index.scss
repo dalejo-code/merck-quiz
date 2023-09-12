@@ -11,6 +11,8 @@ $font-color: #6021b1;
 }
 .footer {
   grid-area: footer;
+  display: flex;
+  justify-content: space-between;
 }
 .numero-pregunta {
   color: #fff;
@@ -43,7 +45,7 @@ $font-color: #6021b1;
   grid-template-areas:
     '. header number'
     '. main .'
-    'footer footer footer';
+    '. footer .';
 }
 .respuestas {
   display: grid;
@@ -54,18 +56,24 @@ $font-color: #6021b1;
 .respuesta {
   display: flex;
   width: 665px;
-  height: 100px;
+  height: 130px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   background-color: $card-bg;
   border-radius: 16px;
+  &#correcta {
+    border: 1rem solid #3ca33c;
+  }
+  &.incorrecta {
+    border: 1rem solid #ea9700;
+  }
 }
 
 .texto {
   color: #000;
   text-align: center;
-  font-family: Sniglet;
+  font-family: Verdana;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -99,4 +107,14 @@ $font-color: #6021b1;
   max-width: 520px;
   margin-inline: auto;
   margin-top: 50px;
+}
+.footer > button {
+  all: unset;
+  :hover {
+    cursor: pointer;
+    &.left,
+    &.right {
+      fill: #398639;
+    }
+  }
 }

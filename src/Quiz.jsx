@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import Numero from './assets/numero_pregunta.svg';
+import Left from './components/Left';
+import Right from './components/Right';
+import Respuesta from './components/Respuesta';
 
 const Quiz = ({ preguntas }) => {
   const [stage, setStage] = useState(0);
@@ -27,23 +30,19 @@ const Quiz = ({ preguntas }) => {
         </div>
 
         <div className="respuestas">
-          {respuestas.map(res => {
-            return (
-              <div className="respuesta">
-                <div className="texto">{res.respuesta}</div>
-              </div>
-            );
+          {respuestas.map((respuesta, key) => {
+            return <Respuesta respuesta={respuesta} key={key} />;
           })}
         </div>
         <div className="footer">
           <button onClick={stage > 0 ? () => setStage(stage - 1) : null}>
-            Atras
+            <Left />
           </button>
           <button
             onClick={
               stage < preguntas.length - 1 ? () => setStage(stage + 1) : null
             }>
-            Siguiente
+            <Right />
           </button>
         </div>
       </div>
