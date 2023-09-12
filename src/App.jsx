@@ -2,7 +2,7 @@ import { createContext, useState } from 'react';
 import './App.css';
 import Preguntas from './Preguntas';
 import Quiz from './Quiz';
-console.log(Preguntas);
+import '@fontsource/sniglet'; // Defaults to weight 400
 const IdiomaContext = createContext(null);
 
 function App() {

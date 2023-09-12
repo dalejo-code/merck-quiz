@@ -1,8 +1,7 @@
 const Preguntas = {
   ES: [
     {
-      pregunta:
-        'Pregunta 1: ¿Qué es la deficiencia de la hormona de crecimiento (DHC)?',
+      pregunta: '¿Qué es la deficiencia de la hormona de crecimiento (DHC)?',
       respuestas: [
         {
           respuesta:
@@ -27,7 +26,7 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Pregunta 2: ¿Cuáles son los signos y síntomas de DHC?',
+      pregunta: '¿Cuáles son los signos y síntomas de DHC?',
       respuestas: [
         {
           respuesta:
@@ -54,7 +53,7 @@ const Preguntas = {
     },
     {
       pregunta:
-        'Pregunta 3: El tratamiento con hormona de crecimiento puede tener efectos positivos sobre otros aspectos del desarrollo de su hijo, en particular, el nivel de energía, la autoestima y el bienestar emocional general.',
+        'El tratamiento con hormona de crecimiento puede tener efectos positivos sobre otros aspectos del desarrollo de su hijo, en particular, el nivel de energía, la autoestima y el bienestar emocional general.',
       respuestas: [
         {
           respuesta: 'Verdadero',
@@ -72,7 +71,7 @@ const Preguntas = {
     },
     {
       pregunta:
-        'Pregunta 4: ¿Cómo se maneja la DHC? Elija todas las respuestas que correspondan.',
+        '¿Cómo se maneja la DHC? Elija todas las respuestas que correspondan.',
       respuestas: [
         {
           respuesta:
@@ -99,7 +98,7 @@ const Preguntas = {
     },
     {
       pregunta:
-        'Pregunta 5: ¿Qué beneficios puede esperar para su hijo con el tratamiento de DHC?',
+        '¿Qué beneficios puede esperar para su hijo con el tratamiento de DHC?',
       respuestas: [
         {
           respuesta:
@@ -125,7 +124,7 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Pregunta 6: ¿Dónde puedo encontrar más información sobre DHC?',
+      pregunta: '¿Dónde puedo encontrar más información sobre DHC?',
       respuestas: [
         {
           respuesta: 'Hablar con el médico',
@@ -151,8 +150,7 @@ const Preguntas = {
   ],
   PT: [
     {
-      pregunta:
-        'Pregunta 1: O que é a deficiência de hormônio do crescimento (GHD)?',
+      pregunta: 'O que é a deficiência de hormônio do crescimento (GHD)?',
       respuestas: [
         {
           respuesta:
@@ -177,7 +175,7 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Pregunta 2: Quais são os sinais e sintomas de GHD?',
+      pregunta: 'Quais são os sinais e sintomas de GHD?',
       respuestas: [
         {
           respuesta:
@@ -203,7 +201,7 @@ const Preguntas = {
     },
     {
       pregunta:
-        'Pregunta 3: O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
+        'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
       respuestas: [
         {
           respuesta: 'Verdadeiro.',
@@ -220,8 +218,7 @@ const Preguntas = {
       ],
     },
     {
-      pregunta:
-        'Pregunta 4: Como a GHD é tratada? Marque todos os que se aplicam.',
+      pregunta: 'Como a GHD é tratada? Marque todos os que se aplicam.',
       respuestas: [
         {
           respuesta:
@@ -246,7 +243,7 @@ const Preguntas = {
     },
     {
       pregunta:
-        'Pregunta 5: Como você pode esperar que seu filho se beneficie do tratamento para GHD?',
+        'Como você pode esperar que seu filho se beneficie do tratamento para GHD?',
       respuestas: [
         {
           respuesta:
@@ -272,7 +269,7 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Pregunta 6: Onde posso obter mais informações sobre GHD?',
+      pregunta: 'Onde posso obter mais informações sobre GHD?',
       respuestas: [
         {
           respuesta: 'Converse com seu médico.',
