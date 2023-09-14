@@ -23,7 +23,10 @@ const Quiz = ({ preguntas }) => {
   return (
     <>
       <div className="quiz-container">
-        <div className="header pregunta">{pregunta}</div>
+        <div className="sidebar"></div>
+        <div className="header pregunta">
+          <div>{pregunta}</div>
+        </div>
         <div className="numero-pregunta">
           <img src={Numero} alt="" />
           <div className="centered">{stage + 1}</div>
