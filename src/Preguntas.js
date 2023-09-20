@@ -1,6 +1,8 @@
 const Preguntas = {
   ES: [
     {
+      id: 1,
+      respuestaSeleccionada: null,
       pregunta: '¿Qué es la deficiencia de la hormona de crecimiento (DHC)?',
       respuestas: [
         {
@@ -26,6 +28,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 2,
+      respuestaSeleccionada: null,
       pregunta: '¿Cuáles son los signos y síntomas de DHC?',
       respuestas: [
         {
@@ -52,6 +56,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 3,
+      respuestaSeleccionada: null,
       pregunta:
         'El tratamiento con hormona de crecimiento puede tener efectos positivos sobre otros aspectos del desarrollo de su hijo, en particular, el nivel de energía, la autoestima y el bienestar emocional general.',
       respuestas: [
@@ -70,6 +76,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 4,
+      respuestaSeleccionada: null,
       pregunta:
         '¿Cómo se maneja la DHC? Elija todas las respuestas que correspondan.',
       respuestas: [
@@ -97,6 +105,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 5,
+      respuestaSeleccionada: null,
       pregunta:
         '¿Qué beneficios puede esperar para su hijo con el tratamiento de DHC?',
       respuestas: [
@@ -124,6 +134,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 6,
+      respuestaSeleccionada: null,
       pregunta: '¿Dónde puedo encontrar más información sobre DHC?',
       respuestas: [
         {
@@ -150,32 +162,36 @@ const Preguntas = {
   ],
   PT: [
     {
-      pregunta: 'O que é a deficiência de hormônio do crescimento (GHD)?',
+      id: 1,
+      respuestaSeleccionada: null,
+      pregunta: 'O que é a deficiência de hormônio do crescimento (DHC)?',
       respuestas: [
         {
           respuesta:
-            'A deficiência do hormônio do crescimento (GHD) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+            'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
           correcta: true,
           justificacion: 'Correto.',
         },
         {
           respuesta:
-            'A deficiência do hormônio do crescimento (GHD) é uma doença autoimune que faz com que o corpo pare de produzir insulina, um hormônio que regula os níveis da glicemia.',
+            'A deficiência do hormônio do crescimento (DHC) é uma doença autoimune que faz com que o corpo pare de produzir insulina, um hormônio que regula os níveis da glicemia.',
           correcta: false,
           justificacion:
-            'Isto não está correto. A deficiência do hormônio do crescimento (GHD) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+            'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
         },
         {
           respuesta:
-            'A deficiência do hormônio do crescimento (GHD) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.',
+            'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.',
           correcta: false,
           justificacion:
-            'Isto não está correto. A deficiência do hormônio do crescimento (GHD) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+            'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
         },
       ],
     },
     {
-      pregunta: 'Quais são os sinais e sintomas de GHD?',
+      id: 2,
+      respuestaSeleccionada: null,
+      pregunta: 'Quais são os sinais e sintomas de DHC?',
       respuestas: [
         {
           respuesta:
@@ -200,6 +216,8 @@ const Preguntas = {
       ],
     },
     {
+      id: 3,
+      respuestaSeleccionada: null,
       pregunta:
         'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
       respuestas: [
@@ -207,7 +225,7 @@ const Preguntas = {
           respuesta: 'Verdadeiro.',
           correcta: true,
           justificacion:
-            'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da GHD.',
+            'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da DHC.',
         },
         {
           respuesta: 'Falso.',
@@ -218,20 +236,22 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Como a GHD é tratada? Marque todos os que se aplicam.',
+      id: 4,
+      respuestaSeleccionada: null,
+      pregunta: 'Como a DHC é tratada? Marque todos os que se aplicam.',
       respuestas: [
         {
           respuesta:
             'Comer uma dieta balanceada, exercícios regulares, sono de boa qualidade.',
           correcta: true,
           justificacion:
-            '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a GHD.',
+            '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
         },
         {
           respuesta: 'Lembrar de administrar o tratamento conforme prescrito.',
           correcta: true,
           justificacion:
-            '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a GHD.',
+            '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
         },
         {
           respuesta: 'Ignorando os sintomas, esperando que eles desapareçam.',
@@ -242,26 +262,28 @@ const Preguntas = {
       ],
     },
     {
+      id: 5,
+      respuestaSeleccionada: null,
       pregunta:
-        'Como você pode esperar que seu filho se beneficie do tratamento para GHD?',
+        'Como você pode esperar que seu filho se beneficie do tratamento para DHC?',
       respuestas: [
         {
           respuesta:
-            'As crianças com GHD tratadas terão maior força muscular e desempenho atlético quando adultos.',
+            'As crianças com DHC tratadas terão maior força muscular e desempenho atlético quando adultos.',
           correcta: false,
           justificacion:
             'Isto não está correto. o aumento da força muscular e da capacidade atlética não é conhecido por ocorrer a partir do tratamento.',
         },
         {
           respuesta:
-            'As crianças com GHD tratadas têm a garantia de serem altas quando adultas.',
+            'As crianças com DHC tratadas têm a garantia de serem altas quando adultas.',
           correcta: false,
           justificacion:
             'Isto não está correto. O tratamento não garante que seu filho será alto quando adulto.',
         },
         {
           respuesta:
-            'As crianças com GHD que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.',
+            'As crianças com DHC que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.',
           correcta: true,
           justificacion:
             'Correto. Se seu filho foi diagnosticado cedo o suficiente, é provável que ele alcance uma altura adulta normal.',
@@ -269,7 +291,9 @@ const Preguntas = {
       ],
     },
     {
-      pregunta: 'Onde posso obter mais informações sobre GHD?',
+      id: 6,
+      respuestaSeleccionada: null,
+      pregunta: 'Onde posso obter mais informações sobre DHC?',
       respuestas: [
         {
           respuesta: 'Converse com seu médico.',

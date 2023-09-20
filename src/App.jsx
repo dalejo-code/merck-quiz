@@ -1,7 +1,5 @@
 import { createContext, useState } from 'react';
 import Preguntas from './Preguntas';
-import CO from './assets/CO.svg';
-import BR from './assets/BR.svg';
 import Quiz from './Quiz';
 import '@fontsource/sniglet'; // Defaults to weight 400
 const IdiomaContext = createContext(null);
@@ -11,14 +9,14 @@ function App() {
   return (
     <IdiomaContext.Provider value={idioma}>
       <Quiz preguntas={Preguntas[idioma]} />
-      <div className="idioma-container">
-        <button className="idioma" onClick={() => setIdioma('ES')}>
-          <img src={CO} alt="Español" />
+      {/* <div className="idioma-container">
+        <button className="idioma">
+          <img src={CO} alt="Español" onClick={() => setIdioma('ES')} />
         </button>
-        <button className="idioma" onClick={() => setIdioma('PT')}>
-          <img src={BR} alt="Português" />
+        <button className="idioma">
+          <img src={BR} alt="Português" onClick={() => setIdioma('PT')} />
         </button>
-      </div>
+      </div> */}
     </IdiomaContext.Provider>
   );
 }
