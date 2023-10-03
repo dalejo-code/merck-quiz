@@ -1,11 +1,10 @@
 import * as React from 'react';
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-const style = {
+export const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
@@ -26,7 +25,6 @@ const Respuesta = ({
   const [correcta, setCorrecta] = useState(respuesta.correcta);
   const [incorrecta, setIncorrecta] = useState(!respuesta.correcta);
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const isSelected = respuestaSeleccionada === currentAnswer;
 

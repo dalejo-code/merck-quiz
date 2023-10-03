@@ -1,6 +1,7 @@
-const Left = () => {
+const Left = ({ style }) => {
   return (
     <svg
+      style={style}
       width="99"
       height="96"
       viewBox="0 0 99 96"
