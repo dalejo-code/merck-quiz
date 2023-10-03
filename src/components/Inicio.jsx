@@ -1,9 +1,7 @@
 const Inicio = ({ idioma, disclaimer, setStage }) => {
   const { titulo, subtitulo, textoDisclaimer, dhc } = disclaimer;
   const image =
-    idioma === 'ES'
-      ? 'url(/src/assets/startES.svg)'
-      : 'url(/src/assets/startPT.svg)';
+    idioma === 'ES' ? 'url(/assets/startES.svg)' : 'url(/assets/startPT.svg)';
   const color = idioma === 'ES' ? '#50BFC1' : '#FF3C53';
   return (
     <div className="inicio" style={{ backgroundImage: image }}>
