@@ -5,7 +5,7 @@ const Final = ({ idioma, disclaimer }) => {
       ? 'url(/src/assets/startES.svg)'
       : 'url(/src/assets/startPT.svg)';
   return (
-    <div className="final" style={{ backgroundImage: image }}>
+    <div className="final">
       <div className="gracias">
         {idioma === 'ES'
           ? 'Gracias por sus Respuestas'
