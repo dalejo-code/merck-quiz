@@ -4,7 +4,7 @@ const Inicio = ({ idioma, disclaimer, setStage }) => {
     idioma === 'ES' ? 'url(/assets/startES.svg)' : 'url(/assets/startPT.svg)';
   const color = idioma === 'ES' ? '#50BFC1' : '#FF3C53';
   return (
-    <div className="inicio" style={{ backgroundImage: image }}>
+    <div className="inicio">
       <div className="titulo-quiz">
         <div className="titulo">{titulo}</div>
         <div>{dhc}</div>
