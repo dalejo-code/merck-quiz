@@ -1,14 +1,19 @@
-const Inicio = ({ idioma, disclaimer, setStage }) => {
-  const { titulo, subtitulo, textoDisclaimer, dhc } = disclaimer;
-  const image =
-    idioma === 'ES' ? 'url(/assets/startES.svg)' : 'url(/assets/startPT.svg)';
-  const color = idioma === 'ES' ? '#50BFC1' : '#FF3C53';
+import parse from 'html-react-parser';
+const Inicio = ({
+  disclaimer,
+  titulo1,
+  titulo2,
+  subtitulo,
+  type,
+  setStage,
+}) => {
+  const color = type === 'DHC' ? '#50BFC1' : '#FF3C53';
   return (
-    <div className="inicio">
+    <div className="inicio" id={type === 'DHC' ? 'dhc' : 'saizen'}>
       <div className="titulo-quiz">
-        <div className="titulo">{titulo}</div>
-        <div>{dhc}</div>
-        <div className="subtitulo">{subtitulo}</div>
+        <div className="titulo">{parse(titulo1)}</div>
+        <div>{parse(titulo2)}</div>
+        <div className="subtitulo">{parse(subtitulo)}</div>
       </div>
       <button
         className="empezar"
@@ -16,7 +21,7 @@ const Inicio = ({ idioma, disclaimer, setStage }) => {
         onClick={() => setStage()}>
         Empezar
       </button>
-      <div className="texto">{textoDisclaimer}</div>
+      <div className="texto">{parse(disclaimer.inicio)}</div>
     </div>
   );
 };

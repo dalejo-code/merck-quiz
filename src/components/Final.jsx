@@ -1,18 +1,10 @@
-const Final = ({ idioma, disclaimer }) => {
-  const { titulo, subtitulo, textoDisclaimer, dhc } = disclaimer;
-  const image =
-    idioma === 'ES'
-      ? 'url(/src/assets/startES.svg)'
-      : 'url(/src/assets/startPT.svg)';
+import parse from 'html-react-parser';
+const Final = ({ disclaimer, type, gracias }) => {
   return (
-    <div className="final">
-      <div className="gracias">
-        {idioma === 'ES'
-          ? 'Gracias por sus Respuestas'
-          : 'Obrigado por suas respostas'}
-      </div>
+    <div className="final" id={type === 'DHC' ? 'dhc' : 'saizen'}>
+      <div className="gracias">{gracias}</div>
       <br />
-      <div className="texto">{textoDisclaimer}</div>
+      <div className="texto">{parse(disclaimer.final)}</div>
     </div>
   );
 };
