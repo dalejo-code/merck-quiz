@@ -8,7 +8,7 @@ const IdiomaContext = createContext(null);
 function App() {
   const idioma = 'PT';
   const zone = 'ST';
-  const quiz = 'SAIZEN';
+  const quiz = 'DHC';
   return (
     <IdiomaContext.Provider value={idioma}>
       <Quiz data={Data[idioma][quiz]} type={quiz} />
