@@ -4,14 +4,18 @@ import Disclaimer from './Disclaimer';
 import Quiz from './Quiz';
 import '@fontsource/sniglet'; // Defaults to weight 400
 const IdiomaContext = createContext(null);
+import { Helmet } from 'react-helmet';
 
 function App() {
-  const idioma = 'PT';
+  const idioma = 'ES';
   const zone = 'ST';
   const quiz = 'DHC';
   return (
     <IdiomaContext.Provider value={idioma}>
-      <Quiz data={Data[idioma][quiz]} type={quiz} />
+      <Helmet>
+        <title>{Data[idioma][zone][quiz].titulo2}</title>
+      </Helmet>
+      <Quiz data={Data[idioma][zone][quiz]} type={quiz} />
       {/* <div className="idioma-container">
         <button className="idioma">
           <img src={CO} alt="Español" onClick={() => setIdioma('ES')} />
