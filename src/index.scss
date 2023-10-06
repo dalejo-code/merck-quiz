@@ -87,9 +87,14 @@ body {
 }
 .sidebar {
   grid-area: sidebar;
-  background-image: url(/src/assets/quiz-title.svg);
   background-repeat: no-repeat;
   min-width: 370px;
+}
+.sidebar#dhc {
+  background-image: url(/src/assets/quiz-title.svg);
+}
+.sidebar#saizen {
+  background-image: url(/src/assets/quiz-title2.svg);
 }
 .respuestas {
   grid-area: main;

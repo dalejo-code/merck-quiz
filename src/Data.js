@@ -194,7 +194,7 @@ const Data = {
         gracias: 'Gracias por sus Respuestas',
         preguntas: [
           {
-            pregunta: 'Pregunta 1: ¿Qué es Saizen®?',
+            pregunta: '¿Qué es Saizen®?',
             respuestas: [
               {
                 respuesta:
@@ -220,7 +220,7 @@ const Data = {
             ],
           },
           {
-            pregunta: 'Pregunta 2: ¿Cómo se usa Saizen®?',
+            pregunta: '¿Cómo se usa Saizen®?',
             respuestas: [
               {
                 respuesta:
@@ -246,7 +246,7 @@ const Data = {
             ],
           },
           {
-            pregunta: 'Pregunta 3: ¿Qué efectos adversos tiene?',
+            pregunta: '¿Qué efectos adversos tiene?',
             respuestas: [
               {
                 respuesta:
@@ -272,7 +272,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 4: Si se saltean inyecciones de Saizen® repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
+              'Si se saltean inyecciones de Saizen® repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadero',
@@ -290,7 +290,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 5: ¿Qué puede hacer si su hijo siente dolor en el sitio de inyección?',
+              '¿Qué puede hacer si su hijo siente dolor en el sitio de inyección?',
             respuestas: [
               {
                 respuesta:
@@ -314,8 +314,7 @@ const Data = {
             ],
           },
           {
-            pregunta:
-              'Pregunta 6: ¿Cuánto tiempo debe recibir Saizen® su hijo?',
+            pregunta: '¿Cuánto tiempo debe recibir Saizen® su hijo?',
             respuestas: [
               {
                 respuesta:
@@ -886,6 +885,175 @@ const Data = {
           ],
         },
       ],
+      referencias: [],
+      disclaimer: {
+        inicio:
+          'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+        final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
+        <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
+        `,
+      },
+    },
+    SAIZEN: {
+      titulo1: 'Tuitek &reg; Latam',
+      titulo2: 'Saizen: os fatos ',
+      subtitulo: 'Quiz No. 2',
+      botonReferencias: 'Referências',
+      gracias: 'Obrigado por suas respostas',
+      preguntas: [
+        {
+          pregunta: 'O que é Saizen®?',
+          respuestas: [
+            {
+              respuesta:
+                'Saizen® é um hormônio do crescimento. A principal ação de Saizen® é aumentar o crescimento em crianças e adolescentes.',
+              correcta: true,
+              justificacion:
+                'Correto. Saizen® é um hormônio de crescimento que atua para aumentar o crescimento em crianças e adolescentes.',
+            },
+            {
+              respuesta:
+                'Saizen® é um hormônio que retarda o crescimento em crianças e adolescentes.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+            },
+            {
+              respuesta:
+                'Saizen® é um medicamento prescrito usado para prevenir dor de cabeça em crianças e adultos.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+            },
+          ],
+        },
+        {
+          pregunta: 'Como Saizen® é administrado?',
+          respuestas: [
+            {
+              respuesta: 'Saizen® é um comprimido administrado diariamente.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+            },
+            {
+              respuesta: 'Saizen® é uma injeção mensal.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+            },
+            {
+              respuesta: 'Saizen® é injetado via subcutânea diariamente.',
+              correcta: true,
+              justificacion:
+                'Correto. Saizen® é injetado via subcutânea diariamente.',
+            },
+          ],
+        },
+        {
+          pregunta: 'Quais são alguns dos efeitos colaterais?',
+          respuestas: [
+            {
+              respuesta:
+                'Os efeitos colaterais mais comuns de Saizen® são reações no local da injeção, como dor, vermelhidão e inchaço.',
+              correcta: true,
+              justificacion:
+                'Correto. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+            },
+            {
+              respuesta:
+                'Os efeitos colaterais comuns de Saizen® são diminuição do apetite e perda de peso.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+            },
+            {
+              respuesta:
+                'Não existem efeitos colaterais conhecidos de Saizen®.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+            },
+          ],
+        },
+        {
+          pregunta:
+            'Quaisquer injeções consistentemente perdidas de Saizen® afetarão o crescimento.',
+          respuestas: [
+            {
+              respuesta: 'Verdadeiro.',
+              correcta: true,
+              justificacion:
+                'Correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+            },
+            {
+              respuesta: 'Falso.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+            },
+          ],
+        },
+        {
+          pregunta:
+            'O que você pode fazer se seu filho apresentar dor no local da injeção?',
+          respuestas: [
+            {
+              respuesta:
+                'Aplique uma compressa fria no local da injeção. Isso pode ajudar a reduzir a dor.',
+              correcta: false,
+              justificacion:
+                'Isto não está totalmente correto. Você também pode usar a distração para ajudar seu filho a esquecer a dor.',
+            },
+            {
+              respuesta:
+                'Distraia seu filho com um brinquedo ou atividade favorita. Isso pode ajudá-los a esquecer a dor.',
+              correcta: false,
+              justificacion:
+                'Isto não está totalmente correto. Você também pode aplicar uma compressa fria no local da injeção para ajudar a reduzir a inflamação e a dor.',
+            },
+            {
+              respuesta: 'Todos os itens acima.',
+              correcta: true,
+              justificacion: 'Correto.',
+            },
+          ],
+        },
+        {
+          pregunta: 'Quanto tempo seu filho deve administrar Saizen®?',
+          respuestas: [
+            {
+              respuesta:
+                'Seu filho precisa fazer esse tratamento pelo resto da vida e precisa continuar sendo avaliado pelo médico.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+            },
+            {
+              respuesta:
+                'Seu filho pode interromper o tratamento quando sentir que alcançou uma altura satisfatória.',
+              correcta: false,
+              justificacion:
+                'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+            },
+            {
+              respuesta:
+                'Seu filho deve parar de administrar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliado pelo médico ou por outras razões, se necessário.',
+              correcta: true,
+              justificacion:
+                'Correto. Não pare de administrar Saizen® sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
+            },
+          ],
+        },
+      ],
+      referencias: [],
+      disclaimer: {
+        inicio:
+          'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+        final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
+        <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
+        `,
+      },
     },
   },
 };

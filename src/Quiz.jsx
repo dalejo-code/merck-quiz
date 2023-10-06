@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Numero from './assets/numero_pregunta.svg';
+import Numero2 from './assets/numero_pregunta2.svg';
 import Left from './components/Left';
 import Right from './components/Right';
 import Respuesta from './components/Respuesta';
@@ -9,7 +10,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { style } from './components/Respuesta';
-import { Referencias } from '../Referencias';
 import Final from './components/Final';
 import parse from 'html-react-parser';
 
@@ -78,7 +78,7 @@ const Quiz = ({ data, type }) => {
   return stage <= 5 ? (
     <>
       <div className="quiz-container">
-        <div className="sidebar"></div>
+        <div className="sidebar" id={type === 'DHC' ? 'dhc' : 'saizen'}></div>
         <div className="header pregunta">
           <div>{parse(pregunta)}</div>
           <button className="referencias" onClick={() => toggleReferences()}>
@@ -105,7 +105,7 @@ const Quiz = ({ data, type }) => {
           </Modal>
         </div>
         <div className="numero-pregunta">
-          <img src={Numero} alt="" />
+          <img src={type === 'DHC' ? Numero : Numero2} alt="" />
           <div className="centered">{currentQuestionIndex + 1}</div>
         </div>
 

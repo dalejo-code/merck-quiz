@@ -6,12 +6,12 @@ import '@fontsource/sniglet'; // Defaults to weight 400
 const IdiomaContext = createContext(null);
 
 function App() {
-  const idioma = 'ES';
+  const idioma = 'PT';
   const zone = 'ST';
   const quiz = 'SAIZEN';
   return (
     <IdiomaContext.Provider value={idioma}>
-      <Quiz data={Data[idioma][zone][quiz]} type={quiz} />
+      <Quiz data={Data[idioma][quiz]} type={quiz} />
       {/* <div className="idioma-container">
         <button className="idioma">
           <img src={CO} alt="Español" onClick={() => setIdioma('ES')} />
