@@ -720,339 +720,342 @@ const Data = {
     },
   },
   PT: {
-    DHC: {
-      titulo1: 'Tuitek &reg; Latam',
-      titulo2: 'DHC: os fatos',
-      subtitulo: 'Quiz No. 1',
-      botonReferencias: 'Referências',
-      gracias: 'Obrigado por suas respostas',
-      preguntas: [
-        {
-          id: 1,
-          respuestaSeleccionada: null,
-          pregunta: 'O que é a deficiência de hormônio do crescimento (DHC)?',
-          respuestas: [
-            {
-              respuesta:
-                'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.<sup>1</sup>',
-              correcta: true,
-              justificacion: 'Correto.',
-            },
-            {
-              respuesta:
-                'A deficiência do hormônio do crescimento (DHC) é uma doença autoimune que faz com que o corpo pare de produzir insulina, um hormônio que regula os níveis da glicemia.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
-            },
-            {
-              respuesta:
-                'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
-            },
-          ],
-        },
-        {
-          id: 2,
-          respuestaSeleccionada: null,
-          pregunta: 'Quais são os sinais e sintomas de DHC?',
-          respuestas: [
-            {
-              respuesta:
-                'Alguns sintomas de deficiência de hormônio do crescimento em crianças incluem dores de cabeça, aura e sensibilidade à luz.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
-            },
-            {
-              respuesta:
-                'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem baixa estatura e, em alguns casos, puberdade atrasada e baixa massa muscular.',
-              correcta: true,
-              justificacion: 'Correto, estes são alguns dos sinais e sintomas.',
-            },
-            {
-              respuesta:
-                'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem alta estatura, puberdade prematura e alta massa muscular.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
-            },
-          ],
-        },
-        {
-          id: 3,
-          respuestaSeleccionada: null,
-          pregunta:
-            'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
-          respuestas: [
-            {
-              respuesta: 'Verdadeiro.',
-              correcta: true,
-              justificacion:
-                'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da DHC.',
-            },
-            {
-              respuesta: 'Falso.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. O tratamento pode contribuir para outros aspectos do desenvolvimento do seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
-            },
-          ],
-        },
-        {
-          id: 4,
-          respuestaSeleccionada: null,
-          pregunta: 'Como a DHC é tratada? Marque todos os que se aplicam.',
-          respuestas: [
-            {
-              respuesta:
-                'Comer uma dieta balanceada, exercícios regulares, sono de boa qualidade.',
-              correcta: true,
-              justificacion:
-                '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
-            },
-            {
-              respuesta:
-                'Lembrar de administrar o tratamento conforme prescrito.',
-              correcta: true,
-              justificacion:
-                '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
-            },
-            {
-              respuesta:
-                'Ignorando os sintomas, esperando que eles desapareçam.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Ignorar seus sintomas não os ajudará a desaparecer. Fale com o seu profissional de saúde sobre o que pode fazer para tratar de forma eficaz os seus sintomas.',
-            },
-          ],
-        },
-        {
-          id: 5,
-          respuestaSeleccionada: null,
-          pregunta:
-            'Como você pode esperar que seu filho se beneficie do tratamento para DHC?',
-          respuestas: [
-            {
-              respuesta:
-                'As crianças com DHC tratadas terão maior força muscular e desempenho atlético quando adultos.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. o aumento da força muscular e da capacidade atlética não é conhecido por ocorrer a partir do tratamento.',
-            },
-            {
-              respuesta:
-                'As crianças com DHC tratadas têm a garantia de serem altas quando adultas.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. O tratamento não garante que seu filho será alto quando adulto.',
-            },
-            {
-              respuesta:
-                'As crianças com DHC que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.',
-              correcta: true,
-              justificacion:
-                'Correto. Se seu filho foi diagnosticado cedo o suficiente, é provável que ele alcance uma altura adulta normal.',
-            },
-          ],
-        },
-        {
-          id: 6,
-          respuestaSeleccionada: null,
-          pregunta: 'Onde posso obter mais informações sobre DHC?',
-          respuestas: [
-            {
-              respuesta: 'Converse com seu médico.',
-              correcta: false,
-              justificacion:
-                'Isto não está completamente correto, você também pode obter informações úteis de sites confiáveis.',
-            },
-            {
-              respuesta:
-                'Visite um site confiável, por exemplo, recomendado pelo seu médico ou endossado por uma organização com experiência em crescimento.',
-              correcta: true,
-              justificacion:
-                'Correto, você pode encontrar informações úteis nessas duas fontes.',
-            },
-            {
-              respuesta: 'Todos os itens acima.',
-              correcta: false,
-              justificacion:
-                'Isto não está completamente correto, você também pode obter informações úteis de sua equipe de assistência à saúde.',
-            },
-          ],
-        },
-      ],
-      referencias: [],
-      disclaimer: {
-        inicio:
-          'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
-        final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
+    ST: {
+      DHC: {
+        titulo1: 'Tuitek &reg; Latam',
+        titulo2: 'DHC: os fatos',
+        subtitulo: 'Quiz No. 1',
+        botonReferencias: 'Referências',
+        gracias: 'Obrigado por suas respostas',
+        preguntas: [
+          {
+            id: 1,
+            respuestaSeleccionada: null,
+            pregunta: 'O que é a deficiência de hormônio do crescimento (DHC)?',
+            respuestas: [
+              {
+                respuesta:
+                  'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.<sup>1</sup>',
+                correcta: true,
+                justificacion: 'Correto.',
+              },
+              {
+                respuesta:
+                  'A deficiência do hormônio do crescimento (DHC) é uma doença autoimune que faz com que o corpo pare de produzir insulina, um hormônio que regula os níveis da glicemia.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+              },
+              {
+                respuesta:
+                  'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+              },
+            ],
+          },
+          {
+            id: 2,
+            respuestaSeleccionada: null,
+            pregunta: 'Quais são os sinais e sintomas de DHC?',
+            respuestas: [
+              {
+                respuesta:
+                  'Alguns sintomas de deficiência de hormônio do crescimento em crianças incluem dores de cabeça, aura e sensibilidade à luz.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
+              },
+              {
+                respuesta:
+                  'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem baixa estatura e, em alguns casos, puberdade atrasada e baixa massa muscular.',
+                correcta: true,
+                justificacion:
+                  'Correto, estes são alguns dos sinais e sintomas.',
+              },
+              {
+                respuesta:
+                  'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem alta estatura, puberdade prematura e alta massa muscular.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
+              },
+            ],
+          },
+          {
+            id: 3,
+            respuestaSeleccionada: null,
+            pregunta:
+              'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
+            respuestas: [
+              {
+                respuesta: 'Verdadeiro.',
+                correcta: true,
+                justificacion:
+                  'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da DHC.',
+              },
+              {
+                respuesta: 'Falso.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. O tratamento pode contribuir para outros aspectos do desenvolvimento do seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
+              },
+            ],
+          },
+          {
+            id: 4,
+            respuestaSeleccionada: null,
+            pregunta: 'Como a DHC é tratada? Marque todos os que se aplicam.',
+            respuestas: [
+              {
+                respuesta:
+                  'Comer uma dieta balanceada, exercícios regulares, sono de boa qualidade.',
+                correcta: true,
+                justificacion:
+                  '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
+              },
+              {
+                respuesta:
+                  'Lembrar de administrar o tratamento conforme prescrito.',
+                correcta: true,
+                justificacion:
+                  '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
+              },
+              {
+                respuesta:
+                  'Ignorando os sintomas, esperando que eles desapareçam.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Ignorar seus sintomas não os ajudará a desaparecer. Fale com o seu profissional de saúde sobre o que pode fazer para tratar de forma eficaz os seus sintomas.',
+              },
+            ],
+          },
+          {
+            id: 5,
+            respuestaSeleccionada: null,
+            pregunta:
+              'Como você pode esperar que seu filho se beneficie do tratamento para DHC?',
+            respuestas: [
+              {
+                respuesta:
+                  'As crianças com DHC tratadas terão maior força muscular e desempenho atlético quando adultos.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. o aumento da força muscular e da capacidade atlética não é conhecido por ocorrer a partir do tratamento.',
+              },
+              {
+                respuesta:
+                  'As crianças com DHC tratadas têm a garantia de serem altas quando adultas.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. O tratamento não garante que seu filho será alto quando adulto.',
+              },
+              {
+                respuesta:
+                  'As crianças com DHC que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.',
+                correcta: true,
+                justificacion:
+                  'Correto. Se seu filho foi diagnosticado cedo o suficiente, é provável que ele alcance uma altura adulta normal.',
+              },
+            ],
+          },
+          {
+            id: 6,
+            respuestaSeleccionada: null,
+            pregunta: 'Onde posso obter mais informações sobre DHC?',
+            respuestas: [
+              {
+                respuesta: 'Converse com seu médico.',
+                correcta: false,
+                justificacion:
+                  'Isto não está completamente correto, você também pode obter informações úteis de sites confiáveis.',
+              },
+              {
+                respuesta:
+                  'Visite um site confiável, por exemplo, recomendado pelo seu médico ou endossado por uma organização com experiência em crescimento.',
+                correcta: true,
+                justificacion:
+                  'Correto, você pode encontrar informações úteis nessas duas fontes.',
+              },
+              {
+                respuesta: 'Todos os itens acima.',
+                correcta: false,
+                justificacion:
+                  'Isto não está completamente correto, você também pode obter informações úteis de sua equipe de assistência à saúde.',
+              },
+            ],
+          },
+        ],
+        referencias: [],
+        disclaimer: {
+          inicio:
+            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+          final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
         <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
         `,
+        },
       },
-    },
-    SAIZEN: {
-      titulo1: 'Tuitek &reg; Latam',
-      titulo2: 'Saizen: os fatos ',
-      subtitulo: 'Quiz No. 2',
-      botonReferencias: 'Referências',
-      gracias: 'Obrigado por suas respostas',
-      preguntas: [
-        {
-          pregunta: 'O que é Saizen®?',
-          respuestas: [
-            {
-              respuesta:
-                'Saizen® é um hormônio do crescimento. A principal ação de Saizen® é aumentar o crescimento em crianças e adolescentes.',
-              correcta: true,
-              justificacion:
-                'Correto. Saizen® é um hormônio de crescimento que atua para aumentar o crescimento em crianças e adolescentes.',
-            },
-            {
-              respuesta:
-                'Saizen® é um hormônio que retarda o crescimento em crianças e adolescentes.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
-            },
-            {
-              respuesta:
-                'Saizen® é um medicamento prescrito usado para prevenir dor de cabeça em crianças e adultos.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
-            },
-          ],
-        },
-        {
-          pregunta: 'Como Saizen® é administrado?',
-          respuestas: [
-            {
-              respuesta: 'Saizen® é um comprimido administrado diariamente.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
-            },
-            {
-              respuesta: 'Saizen® é uma injeção mensal.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
-            },
-            {
-              respuesta: 'Saizen® é injetado via subcutânea diariamente.',
-              correcta: true,
-              justificacion:
-                'Correto. Saizen® é injetado via subcutânea diariamente.',
-            },
-          ],
-        },
-        {
-          pregunta: 'Quais são alguns dos efeitos colaterais?',
-          respuestas: [
-            {
-              respuesta:
-                'Os efeitos colaterais mais comuns de Saizen® são reações no local da injeção, como dor, vermelhidão e inchaço.',
-              correcta: true,
-              justificacion:
-                'Correto. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
-            },
-            {
-              respuesta:
-                'Os efeitos colaterais comuns de Saizen® são diminuição do apetite e perda de peso.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
-            },
-            {
-              respuesta:
-                'Não existem efeitos colaterais conhecidos de Saizen®.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
-            },
-          ],
-        },
-        {
-          pregunta:
-            'Quaisquer injeções consistentemente perdidas de Saizen® afetarão o crescimento.',
-          respuestas: [
-            {
-              respuesta: 'Verdadeiro.',
-              correcta: true,
-              justificacion:
-                'Correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
-            },
-            {
-              respuesta: 'Falso.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
-            },
-          ],
-        },
-        {
-          pregunta:
-            'O que você pode fazer se seu filho apresentar dor no local da injeção?',
-          respuestas: [
-            {
-              respuesta:
-                'Aplique uma compressa fria no local da injeção. Isso pode ajudar a reduzir a dor.',
-              correcta: false,
-              justificacion:
-                'Isto não está totalmente correto. Você também pode usar a distração para ajudar seu filho a esquecer a dor.',
-            },
-            {
-              respuesta:
-                'Distraia seu filho com um brinquedo ou atividade favorita. Isso pode ajudá-los a esquecer a dor.',
-              correcta: false,
-              justificacion:
-                'Isto não está totalmente correto. Você também pode aplicar uma compressa fria no local da injeção para ajudar a reduzir a inflamação e a dor.',
-            },
-            {
-              respuesta: 'Todos os itens acima.',
-              correcta: true,
-              justificacion: 'Correto.',
-            },
-          ],
-        },
-        {
-          pregunta: 'Quanto tempo seu filho deve administrar Saizen®?',
-          respuestas: [
-            {
-              respuesta:
-                'Seu filho precisa fazer esse tratamento pelo resto da vida e precisa continuar sendo avaliado pelo médico.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
-            },
-            {
-              respuesta:
-                'Seu filho pode interromper o tratamento quando sentir que alcançou uma altura satisfatória.',
-              correcta: false,
-              justificacion:
-                'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
-            },
-            {
-              respuesta:
-                'Seu filho deve parar de administrar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliado pelo médico ou por outras razões, se necessário.',
-              correcta: true,
-              justificacion:
-                'Correto. Não pare de administrar Saizen® sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
-            },
-          ],
-        },
-      ],
-      referencias: [],
-      disclaimer: {
-        inicio:
-          'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
-        final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
+      SAIZEN: {
+        titulo1: 'Tuitek &reg; Latam',
+        titulo2: 'Saizen: os fatos ',
+        subtitulo: 'Quiz No. 2',
+        botonReferencias: 'Referências',
+        gracias: 'Obrigado por suas respostas',
+        preguntas: [
+          {
+            pregunta: 'O que é Saizen®?',
+            respuestas: [
+              {
+                respuesta:
+                  'Saizen® é um hormônio do crescimento. A principal ação de Saizen® é aumentar o crescimento em crianças e adolescentes.',
+                correcta: true,
+                justificacion:
+                  'Correto. Saizen® é um hormônio de crescimento que atua para aumentar o crescimento em crianças e adolescentes.',
+              },
+              {
+                respuesta:
+                  'Saizen® é um hormônio que retarda o crescimento em crianças e adolescentes.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+              },
+              {
+                respuesta:
+                  'Saizen® é um medicamento prescrito usado para prevenir dor de cabeça em crianças e adultos.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+              },
+            ],
+          },
+          {
+            pregunta: 'Como Saizen® é administrado?',
+            respuestas: [
+              {
+                respuesta: 'Saizen® é um comprimido administrado diariamente.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+              },
+              {
+                respuesta: 'Saizen® é uma injeção mensal.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+              },
+              {
+                respuesta: 'Saizen® é injetado via subcutânea diariamente.',
+                correcta: true,
+                justificacion:
+                  'Correto. Saizen® é injetado via subcutânea diariamente.',
+              },
+            ],
+          },
+          {
+            pregunta: 'Quais são alguns dos efeitos colaterais?',
+            respuestas: [
+              {
+                respuesta:
+                  'Os efeitos colaterais mais comuns de Saizen® são reações no local da injeção, como dor, vermelhidão e inchaço.',
+                correcta: true,
+                justificacion:
+                  'Correto. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+              },
+              {
+                respuesta:
+                  'Os efeitos colaterais comuns de Saizen® são diminuição do apetite e perda de peso.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+              },
+              {
+                respuesta:
+                  'Não existem efeitos colaterais conhecidos de Saizen®.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+              },
+            ],
+          },
+          {
+            pregunta:
+              'Quaisquer injeções consistentemente perdidas de Saizen® afetarão o crescimento.',
+            respuestas: [
+              {
+                respuesta: 'Verdadeiro.',
+                correcta: true,
+                justificacion:
+                  'Correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+              },
+              {
+                respuesta: 'Falso.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+              },
+            ],
+          },
+          {
+            pregunta:
+              'O que você pode fazer se seu filho apresentar dor no local da injeção?',
+            respuestas: [
+              {
+                respuesta:
+                  'Aplique uma compressa fria no local da injeção. Isso pode ajudar a reduzir a dor.',
+                correcta: false,
+                justificacion:
+                  'Isto não está totalmente correto. Você também pode usar a distração para ajudar seu filho a esquecer a dor.',
+              },
+              {
+                respuesta:
+                  'Distraia seu filho com um brinquedo ou atividade favorita. Isso pode ajudá-los a esquecer a dor.',
+                correcta: false,
+                justificacion:
+                  'Isto não está totalmente correto. Você também pode aplicar uma compressa fria no local da injeção para ajudar a reduzir a inflamação e a dor.',
+              },
+              {
+                respuesta: 'Todos os itens acima.',
+                correcta: true,
+                justificacion: 'Correto.',
+              },
+            ],
+          },
+          {
+            pregunta: 'Quanto tempo seu filho deve administrar Saizen®?',
+            respuestas: [
+              {
+                respuesta:
+                  'Seu filho precisa fazer esse tratamento pelo resto da vida e precisa continuar sendo avaliado pelo médico.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+              },
+              {
+                respuesta:
+                  'Seu filho pode interromper o tratamento quando sentir que alcançou uma altura satisfatória.',
+                correcta: false,
+                justificacion:
+                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+              },
+              {
+                respuesta:
+                  'Seu filho deve parar de administrar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliado pelo médico ou por outras razões, se necessário.',
+                correcta: true,
+                justificacion:
+                  'Correto. Não pare de administrar Saizen® sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
+              },
+            ],
+          },
+        ],
+        referencias: [],
+        disclaimer: {
+          inicio:
+            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+          final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
         <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
         `,
+        },
       },
     },
   },
