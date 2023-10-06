@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 function App() {
   const idioma = 'PT';
   const zone = 'ST';
-  const quiz = 'DHC';
+  const quiz = 'SAIZEN';
   return (
     <IdiomaContext.Provider value={idioma}>
       <Helmet>
