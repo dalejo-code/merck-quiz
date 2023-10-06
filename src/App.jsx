@@ -7,7 +7,7 @@ const IdiomaContext = createContext(null);
 import { Helmet } from 'react-helmet';
 
 function App() {
-  const idioma = 'ES';
+  const idioma = 'PT';
   const zone = 'ST';
   const quiz = 'DHC';
   return (
@@ -15,7 +15,7 @@ function App() {
       <Helmet>
         <title>{Data[idioma][zone][quiz].titulo2}</title>
       </Helmet>
-      <Quiz data={Data[idioma][zone][quiz]} type={quiz} />
+      <Quiz data={Data[idioma][quiz]} type={quiz} />
       {/* <div className="idioma-container">
         <button className="idioma">
           <img src={CO} alt="Español" onClick={() => setIdioma('ES')} />
