@@ -921,63 +921,60 @@ const Data = {
       SAIZEN: {
         titulo1:
           'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
-        titulo2:
-          'Información sobre Saizen<span class="registered"><sup>®</sup></span>',
+        titulo2: 'Información sobre  la hormona de crecimiento',
         subtitulo: 'Cuestionario No. 2',
         botonReferencias: 'Referencias',
         gracias: 'Gracias por sus Respuestas',
         preguntas: [
           {
-            pregunta:
-              '¿Qué es Saizen<span class="registered"><sup>®</sup></span>?',
+            pregunta: '¿Qué es  la hormona de crecimiento?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento. La acción principal de Saizen<span class="registered"><sup>®</sup></span> es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'La acción principal de  la hormona de crecimiento es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'Correcto. es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona que detiene el crecimiento en niños y adolescentes.',
+                  'Es una hormona que detiene el crecimiento en niños y adolescentes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es un medicamento recetado que previene las migrañas en niños y adultos.',
+                  'La hormona de crecimiento es un medicamento recetado que previene las migrañas en niños y adultos.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
             ],
           },
           {
-            pregunta:
-              '¿Cómo se usa Saizen<span class="registered"><sup>®</sup></span>?',
+            pregunta: '¿Cómo se usa la hormona de crecimiento de Merck?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es un comprimido que se toma una vez al día.',
+                  'La hormona de crecimiento es un comprimido que se toma una vez al día.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto.  la hormona de crecimiento es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección que se aplica una vez al mes.',
+                  'La hormona de crecimiento es una inyección que se aplica una vez al mes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto.  la hormona de crecimiento es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'La hormona de crecimiento es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'Correcto.  la hormona de crecimiento es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
               },
             ],
           },
@@ -986,21 +983,21 @@ const Data = {
             respuestas: [
               {
                 respuesta:
-                  'Los efectos adversos más comunes de Saizen<span class="registered"><sup>®</sup></span> son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
+                  'Los efectos adversos más comunes de  la hormona de crecimiento son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
                 correcta: true,
                 justificacion:
                   'Correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Los efectos adversos comunes de Saizen<span class="registered"><sup>®</sup></span> son la falta de apetito y el descenso de peso.<sup>1</sup>',
+                  'Los efectos adversos comunes de  la hormona de crecimiento son la falta de apetito y el descenso de peso.<sup>1</sup>',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Se desconocen los efectos adversos de Saizen<span class="registered"><sup>®</sup></span>.',
+                  'Se desconocen los efectos adversos de  la hormona de crecimiento.',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.',
@@ -1009,7 +1006,7 @@ const Data = {
           },
           {
             pregunta:
-              'Si se saltean inyecciones de Saizen<span class="registered"><sup>®</sup></span> repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
+              'Si se saltean inyecciones de  la hormona de crecimiento repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadero',
@@ -1052,28 +1049,28 @@ const Data = {
           },
           {
             pregunta:
-              '¿Cuánto tiempo debe recibir Saizen<span class="registered"><sup>®</sup></span> su hijo?',
+              '¿Cuánto tiempo debe recibir  la hormona de crecimiento su hijo?',
             respuestas: [
               {
                 respuesta:
                   'Su hijo debe recibir tratamiento durante el resto de su vida y tiene que seguir bajo evaluación médica.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de  la hormona de crecimiento sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo puede abandonar el tratamiento cuando sienta que ha alcanzado una estatura satisfactoria.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de  la hormona de crecimiento sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico, o a causa de otras razones si es necesario.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'Correcto. No debe suspender la administración de  la hormona de crecimiento sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
             ],
           },
