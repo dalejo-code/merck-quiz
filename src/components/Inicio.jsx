@@ -9,6 +9,7 @@ const Inicio = ({
   setStage,
 }) => {
   const color = type === 'DHC' ? '#50BFC1' : '#FF3C53';
+  const comenzar = import.meta.env.VITE_IDIOMA === 'ES' ? 'Empezar' : 'Começar';
   return (
     <div className="inicio" id={type === 'DHC' ? 'dhc' : 'saizen'}>
       <div className="titulo-quiz">
@@ -23,7 +24,7 @@ const Inicio = ({
         className="empezar"
         style={{ background: color }}
         onClick={() => setStage()}>
-        Empezar
+        {comenzar}
       </button>
       <div className="texto">{parse(disclaimer.inicio)}</div>
     </div>
