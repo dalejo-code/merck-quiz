@@ -158,15 +158,15 @@ const Data = {
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
-                correcta: true,
-                justificacion:
-                  'Correcto. Puede obtener información útil de las dos fuentes.',
-              },
-              {
-                respuesta: 'Todas las anteriores',
                 correcta: false,
                 justificacion:
                   'No es correcto. También puede obtener información útil en páginas web confiables.',
+              },
+              {
+                respuesta: 'Todas las anteriores',
+                correcta: true,
+                justificacion:
+                  'Correcto. Puede obtener información útil de las dos fuentes.',
               },
             ],
           },
@@ -524,15 +524,15 @@ const Data = {
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
-                correcta: true,
-                justificacion:
-                  'Correcto. Puede obtener información útil de las dos fuentes.',
-              },
-              {
-                respuesta: 'Todas las anteriores',
                 correcta: false,
                 justificacion:
                   'No es correcto. También puede obtener información útil en páginas web confiables.',
+              },
+              {
+                respuesta: 'Todas las anteriores',
+                correcta: true,
+                justificacion:
+                  'Correcto. Puede obtener información útil de las dos fuentes.',
               },
             ],
           },
@@ -563,7 +563,7 @@ const Data = {
         preguntas: [
           {
             pregunta:
-              'Pregunta 1: ¿Qué es Saizen<span class="registered"><sup>®</sup></span>?',
+              '¿Qué es Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
@@ -590,7 +590,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 2: ¿Cómo se usa Saizen<span class="registered"><sup>®</sup></span>?',
+              '¿Cómo se usa Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
@@ -616,7 +616,7 @@ const Data = {
             ],
           },
           {
-            pregunta: 'Pregunta 3: ¿Qué efectos adversos tiene?',
+            pregunta: '¿Qué efectos adversos tiene?',
             respuestas: [
               {
                 respuesta:
@@ -643,7 +643,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 4: Si se saltean inyecciones de Saizen<span class="registered"><sup>®</sup></span> repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
+              'Si se saltean inyecciones de Saizen<span class="registered"><sup>®</sup></span> repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadero',
@@ -661,7 +661,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 5: ¿Qué puede hacer si su hijo siente dolor en el sitio de inyección?',
+              '¿Qué puede hacer si su hijo siente dolor en el sitio de inyección?',
             respuestas: [
               {
                 respuesta:
@@ -686,7 +686,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 6: ¿Cuánto tiempo debe recibir Saizen<span class="registered"><sup>®</sup></span> su hijo?',
+              '¿Cuánto tiempo debe recibir Saizen<span class="registered"><sup>®</sup></span> su hijo?',
             respuestas: [
               {
                 respuesta:
@@ -889,15 +889,15 @@ const Data = {
               {
                 respuesta:
                   'Visite um site confiável, por exemplo, recomendado pelo seu médico ou endossado por uma organização com experiência em crescimento.',
-                correcta: true,
-                justificacion:
-                  'Correto, você pode encontrar informações úteis nessas duas fontes.',
-              },
-              {
-                respuesta: 'Todos os itens acima.',
                 correcta: false,
                 justificacion:
                   'Isto não está completamente correto, você também pode obter informações úteis de sua equipe de assistência à saúde.',
+              },
+              {
+                respuesta: 'Todos os itens acima.',
+                correcta: true,
+                justificacion:
+                  'Correto, você pode encontrar informações úteis nessas duas fontes. ',
               },
             ],
           },
