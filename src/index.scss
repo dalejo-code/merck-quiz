@@ -1,5 +1,5 @@
 $bg: #ffffff;
-$card-bg: #c4c4c4;
+$card-bg: #ffc832;
 $themes: (
   dhc: (
     primary: #50bfc1,
@@ -223,8 +223,13 @@ body {
   top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   @include breakpoint(md) {
-    top: 40%;
+    top: 47%;
+  }
+
+  @include breakpoint(xxl) {
+    top: 50%;
   }
 }
 
@@ -260,7 +265,7 @@ body {
 .respuesta {
   display: flex;
   max-width: 665px;
-  height: 130px;
+  max-height: 250px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
