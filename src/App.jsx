@@ -7,9 +7,9 @@ const IdiomaContext = createContext(null);
 import { Helmet } from 'react-helmet';
 
 function App() {
-  const idioma = 'PT';
-  const zone = 'ST';
-  const quiz = 'DHC';
+  const idioma = import.meta.env.VITE_IDIOMA || 'ES';
+  const zone = import.meta.env.VITE_ZONE || 'ST';
+  const quiz = import.meta.env.VITE_QUIZ || 'DHC';
   return (
     <IdiomaContext.Provider value={idioma}>
       <Helmet>

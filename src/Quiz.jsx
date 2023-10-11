@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Numero from './assets/numero_pregunta.svg';
 import Numero2 from './assets/numero_pregunta2.svg';
-import Left from './components/Left';
-import Right from './components/Right';
+import Left from './assets/left.png';
+import Right from './assets/right.png';
 import Respuesta from './components/Respuesta';
 import Inicio from './components/Inicio';
 import LinearProgress from '@mui/joy/LinearProgress';
@@ -77,8 +77,7 @@ const Quiz = ({ data, type }) => {
     questions[currentQuestionIndex];
   return stage <= 5 ? (
     <>
-      <div className="quiz-container">
-        <div className="sidebar" id={type === 'DHC' ? 'dhc' : 'saizen'}></div>
+      <div className="quiz-container" id={type === 'DHC' ? 'dhc' : 'saizen'}>
         <div className="header pregunta">
           <div>{parse(pregunta)}</div>
           <button className="referencias" onClick={() => toggleReferences()}>
@@ -127,11 +126,7 @@ const Quiz = ({ data, type }) => {
             onClick={
               currentQuestionIndex > 0 ? () => handlePreviousQuestion() : null
             }>
-            <Left
-              style={{
-                visibility: currentQuestionIndex > 0 ? 'visible' : 'hidden',
-              }}
-            />
+            <img className="progress-btn" src={Left} alt="left" />
           </button>
           <LinearProgress
             className="progress"
@@ -146,7 +141,7 @@ const Quiz = ({ data, type }) => {
                 ? () => handleNextQuestion()
                 : null
             }>
-            <Right />
+            <img className="progress-btn" src={Right} alt="right" />
           </button>
         </div>
       </div>

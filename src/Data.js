@@ -2,7 +2,8 @@ const Data = {
   ES: {
     CT: {
       DHC: {
-        titulo1: 'Tuitek &reg; Latam',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
         titulo2: 'Información sobre DHC',
         subtitulo: 'Cuestionario No. 1',
         botonReferencias: 'Referencias',
@@ -187,61 +188,65 @@ const Data = {
         },
       },
       SAIZEN: {
-        titulo1: 'Tuitek &reg; Latam',
-        titulo2: 'Información sobre Saizen®',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
+        titulo2:
+          'Información sobre Saizen<span class="registered"><sup>®</sup></span>',
         subtitulo: 'Cuestionario No. 2',
         botonReferencias: 'Referencias',
         gracias: 'Gracias por sus Respuestas',
         preguntas: [
           {
-            pregunta: '¿Qué es Saizen®?',
+            pregunta:
+              '¿Qué es Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen® es una hormona de crecimiento. La acción principal de Saizen® es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento. La acción principal de Saizen<span class="registered"><sup>®</sup></span> es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen® es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® es una hormona que detiene el crecimiento en niños y adolescentes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona que detiene el crecimiento en niños y adolescentes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® es un medicamento recetado que previene las migrañas en niños y adultos.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es un medicamento recetado que previene las migrañas en niños y adultos.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
             ],
           },
           {
-            pregunta: '¿Cómo se usa Saizen®?',
+            pregunta:
+              '¿Cómo se usa Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen® es un comprimido que se toma una vez al día.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es un comprimido que se toma una vez al día.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen® es una inyección que se aplica una vez al mes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección que se aplica una vez al mes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen® es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
               },
             ],
           },
@@ -250,20 +255,21 @@ const Data = {
             respuestas: [
               {
                 respuesta:
-                  'Los efectos adversos más comunes de Saizen® son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
+                  'Los efectos adversos más comunes de Saizen<span class="registered"><sup>®</sup></span> son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
                 correcta: true,
                 justificacion:
                   'Correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Los efectos adversos comunes de Saizen® son la falta de apetito y el descenso de peso.<sup>1</sup>',
+                  'Los efectos adversos comunes de Saizen<span class="registered"><sup>®</sup></span> son la falta de apetito y el descenso de peso.<sup>1</sup>',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
-                respuesta: 'Se desconocen los efectos adversos de Saizen®.',
+                respuesta:
+                  'Se desconocen los efectos adversos de Saizen<span class="registered"><sup>®</sup></span>.',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.',
@@ -272,7 +278,7 @@ const Data = {
           },
           {
             pregunta:
-              'Si se saltean inyecciones de Saizen® repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
+              'Si se saltean inyecciones de Saizen<span class="registered"><sup>®</sup></span> repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadero',
@@ -314,28 +320,29 @@ const Data = {
             ],
           },
           {
-            pregunta: '¿Cuánto tiempo debe recibir Saizen® su hijo?',
+            pregunta:
+              '¿Cuánto tiempo debe recibir Saizen<span class="registered"><sup>®</sup></span> su hijo?',
             respuestas: [
               {
                 respuesta:
                   'Su hijo debe recibir tratamiento durante el resto de su vida y tiene que seguir bajo evaluación médica.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo puede abandonar el tratamiento cuando sienta que ha alcanzado una estatura satisfactoria.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico, o a causa de otras razones si es necesario.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'Correcto. No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
             ],
           },
@@ -353,7 +360,7 @@ const Data = {
         ],
         disclaimer: {
           inicio:
-            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Le sugerimos descargar el documento para que pueda realizar la actividad y luego guardarlo para tenerlo a mano cuando lo quiera consultar.',
+            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek<span><sup>®</sup></span>. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Podrá acceder a la actividad las veces que lo considere necesario.',
           final: `CT-SAI-00129, Sep/2023 La información aquí contenida o cualquier información adicional brindada por el Programa de Soporte a Pacientes de Merck no sustituye en ningún caso el consejo médico. Ante cualquier duda sobre su condición, tratamiento y/o el contenido de este material consulte a su médico. Para uso exclusivo a pacientes de PSP. Prohibida su reproducción total o parcial.
           <br>[2023] MERCK S.A. || © Todos los derechos reservados. 12 Avenida 0-33, Zona 2 de Mixco, Código Postal 01057, Ciudad de Guatemala.`,
         },
@@ -361,7 +368,8 @@ const Data = {
     },
     ST: {
       DHC: {
-        titulo1: 'Tuitek &reg; Latam',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
         titulo2: 'Información sobre DHC',
         subtitulo: 'Cuestionario No. 1',
         botonReferencias: 'Referencias',
@@ -540,66 +548,70 @@ const Data = {
         ],
         disclaimer: {
           inicio:
-            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Le sugerimos descargar el documento para que pueda realizar la actividad y luego guardarlo para tenerlo a mano cuando lo quiera consultar.',
+            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek<span><sup>®</sup></span>. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Podrá acceder a la actividad las veces que lo considere necesario.',
           final: `RL-SAI-00008, Sep/23. La información aquí contenida o cualquier información adicional brindada por el Programa de Soporte a Pacientes de Merck no sustituye en ningún caso el consejo médico. Ante cualquier duda sobre su condición, tratamiento y/o el contenido de este material consulte a su médico. Para uso exclusivo a pacientes de PSP. Prohibida su reproducción total o parcial. <br> [2023] MERCK KGaA || © Todos los derechos reservados.`,
         },
       },
       SAIZEN: {
-        titulo1: 'Tuitek &reg; Latam',
-        titulo2: 'Información sobre Saizen®',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
+        titulo2:
+          'Información sobre Saizen<span class="registered"><sup>®</sup></span>',
         subtitulo: 'Cuestionario No. 2',
         botonReferencias: 'Referencias',
         gracias: 'Gracias por sus Respuestas',
         preguntas: [
           {
-            pregunta: 'Pregunta 1: ¿Qué es Saizen®?',
+            pregunta:
+              'Pregunta 1: ¿Qué es Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen® es una hormona de crecimiento. La acción principal de Saizen® es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento. La acción principal de Saizen<span class="registered"><sup>®</sup></span> es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen® es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
+                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento cuya acción es estimular el crecimiento en niños y adolescentes.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® es una hormona que detiene el crecimiento en niños y adolescentes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una hormona que detiene el crecimiento en niños y adolescentes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® es un medicamento recetado que previene las migrañas en niños y adultos.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es un medicamento recetado que previene las migrañas en niños y adultos.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una hormona de crecimiento indicada para el tratamiento de niños y adultos con deficiencia de la hormona de crecimiento.<sup>1</sup>',
               },
             ],
           },
           {
-            pregunta: 'Pregunta 2: ¿Cómo se usa Saizen®?',
+            pregunta:
+              'Pregunta 2: ¿Cómo se usa Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen® es un comprimido que se toma una vez al día.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es un comprimido que se toma una vez al día.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen® es una inyección que se aplica una vez al mes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección que se aplica una vez al mes.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.',
+                  'No es correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.',
               },
               {
                 respuesta:
-                  'Saizen® es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Saizen® es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
+                  'Correcto. Saizen<span class="registered"><sup>®</sup></span> es una inyección subcutánea que se aplica una vez al día.<sup>1</sup>',
               },
             ],
           },
@@ -608,20 +620,21 @@ const Data = {
             respuestas: [
               {
                 respuesta:
-                  'Los efectos adversos más comunes de Saizen® son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
+                  'Los efectos adversos más comunes de Saizen<span class="registered"><sup>®</sup></span> son las reacciones en el sitio de inyección, por ejemplo, dolor, enrojecimiento e hinchazón.<sup>1</sup>',
                 correcta: true,
                 justificacion:
                   'Correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Los efectos adversos comunes de Saizen® son la falta de apetito y el descenso de peso.<sup>1</sup>',
+                  'Los efectos adversos comunes de Saizen<span class="registered"><sup>®</sup></span> son la falta de apetito y el descenso de peso.<sup>1</sup>',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.<sup>1</sup>',
               },
               {
-                respuesta: 'Se desconocen los efectos adversos de Saizen®.',
+                respuesta:
+                  'Se desconocen los efectos adversos de Saizen<span class="registered"><sup>®</sup></span>.',
                 correcta: false,
                 justificacion:
                   'No es correcto. Debe informar al médico si observa algún efecto adverso que le preocupe, además de cualquier efecto adverso que no se mencione en el folleto de información para el paciente.',
@@ -630,7 +643,7 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 4: Si se saltean inyecciones de Saizen® repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
+              'Pregunta 4: Si se saltean inyecciones de Saizen<span class="registered"><sup>®</sup></span> repetidamente, el crecimiento se verá afectado.<sup>5</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadero',
@@ -673,28 +686,28 @@ const Data = {
           },
           {
             pregunta:
-              'Pregunta 6: ¿Cuánto tiempo debe recibir Saizen® su hijo?',
+              'Pregunta 6: ¿Cuánto tiempo debe recibir Saizen<span class="registered"><sup>®</sup></span> su hijo?',
             respuestas: [
               {
                 respuesta:
                   'Su hijo debe recibir tratamiento durante el resto de su vida y tiene que seguir bajo evaluación médica.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo puede abandonar el tratamiento cuando sienta que ha alcanzado una estatura satisfactoria.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'No es correcto. Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico.<sup>1</sup> No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
               {
                 respuesta:
                   'Su hijo debe abandonar el tratamiento cuando alcance una estatura adulta satisfactoria, según el criterio del médico, o a causa de otras razones si es necesario.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. No debe suspender la administración de Saizen® sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
+                  'Correcto. No debe suspender la administración de Saizen<span class="registered"><sup>®</sup></span> sin antes hablar con el médico de su hijo. Si tiene más preguntas sobre el uso de este medicamento, consulte con el médico de su hijo o con el farmacéutico.',
               },
             ],
           },
@@ -712,7 +725,7 @@ const Data = {
         ],
         disclaimer: {
           inicio:
-            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Le sugerimos descargar el documento para que pueda realizar la actividad y luego guardarlo para tenerlo a mano cuando lo quiera consultar.',
+            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek<span><sup>®</sup></span>. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Podrá acceder a la actividad las veces que lo considere necesario.',
           final: `RL-SAI-00008, Sep/23. La información aquí contenida o cualquier información adicional brindada por el Programa de Soporte a Pacientes de Merck no sustituye en ningún caso el consejo médico. Ante cualquier duda sobre su condición, tratamiento y/o el contenido de este material consulte a su médico. Para uso exclusivo a pacientes de PSP. Prohibida su reproducción total o parcial.
           <br>[2023] MERCK KGaA || © Todos los derechos reservados.`,
         },
@@ -722,7 +735,8 @@ const Data = {
   PT: {
     ST: {
       DHC: {
-        titulo1: 'Tuitek &reg; Latam',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
         titulo2: 'DHC: os fatos',
         subtitulo: 'Quiz No. 1',
         botonReferencias: 'Referências',
@@ -744,14 +758,14 @@ const Data = {
                   'A deficiência do hormônio do crescimento (DHC) é uma doença autoimune que faz com que o corpo pare de produzir insulina, um hormônio que regula os níveis da glicemia.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.',
+                  'A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária produz e libera muito hormônio do crescimento para que o corpo se desenvolva no dobro da taxa normal.<sup>1</sup>',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.',
+                  'Isto não está correto. A deficiência do hormônio do crescimento (DHC) ocorre quando a glândula pituitária não consegue produzir e liberar hormônio do crescimento suficiente para que o corpo se desenvolva em uma taxa normal.<sup>1</sup>',
               },
             ],
           },
@@ -765,11 +779,11 @@ const Data = {
                   'Alguns sintomas de deficiência de hormônio do crescimento em crianças incluem dores de cabeça, aura e sensibilidade à luz.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
+                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem baixa estatura e, em alguns casos, puberdade atrasada e baixa massa muscular.',
+                  'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem baixa estatura e, em alguns casos, puberdade atrasada e baixa massa muscular.<sup>1</sup>',
                 correcta: true,
                 justificacion:
                   'Correto, estes são alguns dos sinais e sintomas.',
@@ -779,7 +793,7 @@ const Data = {
                   'Alguns sintomas da deficiência de hormônio do crescimento em crianças incluem alta estatura, puberdade prematura e alta massa muscular.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.',
+                  'Isto não está correto, alguns dos sintomas da deficiência do hormônio do crescimento em crianças incluem baixa estatura, puberdade atrasada e baixa massa muscular.<sup>1</sup>',
               },
             ],
           },
@@ -787,19 +801,19 @@ const Data = {
             id: 3,
             respuestaSeleccionada: null,
             pregunta:
-              'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
+              'O tratamento com hormônio do crescimento pode contribuir para outros aspectos do desenvolvimento de seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.<sup>2</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadeiro.',
                 correcta: true,
                 justificacion:
-                  'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da DHC.',
+                  'Correto. Muitas crianças acham que o tratamento as ajuda a ter um bem-estar geral melhor, não apenas com os sintomas da DHC.<sup>2</sup>',
               },
               {
                 respuesta: 'Falso.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. O tratamento pode contribuir para outros aspectos do desenvolvimento do seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.',
+                  'Isto não está correto. O tratamento pode contribuir para outros aspectos do desenvolvimento do seu filho, especificamente, níveis de energia, autoestima e bem-estar emocional geral.<sup>2</sup>',
               },
             ],
           },
@@ -813,14 +827,14 @@ const Data = {
                   'Comer uma dieta balanceada, exercícios regulares, sono de boa qualidade.',
                 correcta: true,
                 justificacion:
-                  '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
+                  'Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.<sup>3</sup>',
               },
               {
                 respuesta:
                   'Lembrar de administrar o tratamento conforme prescrito.',
                 correcta: true,
                 justificacion:
-                  '1./2. Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.',
+                  'Correto. Comer uma dieta balanceada, fazer exercícios regularmente e sono de qualidade, bem como administrar o tratamento conforme prescrito, tudo isso ajudará a controlar a DHC.<sup>3</sup>',
               },
               {
                 respuesta:
@@ -849,21 +863,22 @@ const Data = {
                   'As crianças com DHC tratadas têm a garantia de serem altas quando adultas.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. O tratamento não garante que seu filho será alto quando adulto.',
+                  'Isto não está correto. O tratamento não garante que seu filho será alto quando adulto.<sup>3</sup>',
               },
               {
                 respuesta:
-                  'As crianças com DHC que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.',
+                  'As crianças com DHC que são tratadas geralmente alcançam uma altura adulta normal, desde que sejam diagnosticadas cedo o suficiente para permitir o crescimento “recuperado”.<sup>3</sup>',
                 correcta: true,
                 justificacion:
-                  'Correto. Se seu filho foi diagnosticado cedo o suficiente, é provável que ele alcance uma altura adulta normal.',
+                  '3.	Correto. Se seu filho foi diagnosticado cedo o suficiente, é provável que ele alcance uma altura adulta normal.<sup>3</sup> A altura é um fator genético, a criança poderá alcançar sua altura alvo.',
               },
             ],
           },
           {
             id: 6,
             respuestaSeleccionada: null,
-            pregunta: 'Onde posso obter mais informações sobre DHC?',
+            pregunta:
+              'Onde posso obter mais informações sobre DHC?<sup>4</sup>',
             respuestas: [
               {
                 respuesta: 'Converse com seu médico.',
@@ -887,68 +902,80 @@ const Data = {
             ],
           },
         ],
-        referencias: [],
+        referencias: [
+          '<sup>1</sup> Deficiência de hormônio do crescimento [Internet]. NHS; [citado em 3 de junho de 2023]. Disponível em: <a href="https://www.gosh.nhs.uk/conditions-and-treatments/conditions-we-treat/growth-hormone-deficiency/">https://www.gosh.nhs.uk/conditions-and-treatments/conditions-we-treat/growth-hormone-deficiency/</a>',
+          '<sup>2</sup> Marini MG, Chesi P, Mazzanti L, Guazzarotti L, Toni TD, Salerno MC, Officioso A, Parpagnoli M, Angeletti C, Faienza MF, Iezzi ML. Stories of experiences of care for growth hormone deficiency: the CRESCERE project. Future Science OA. 2016 Mar;2(1).',
+          '<sup>3</sup> Growth disorders [Internet]. London Endocrine Centre; [citado em 3 de junho de 2023]. Disponível em: <a href="http://www.londonendocrinecentre.co.uk/growth-disorders.html">http://www.londonendocrinecentre.co.uk/growth-disorders.html</a>',
+          '<sup>4</sup> Merck, Crescendo bem, disponível em <a href="https://www.merckcrescendo.com.br/">https://www.merckcrescendo.com.br/</a>',
+          '<sup>5</sup> Saizen® Somatropina Solução injetável, bula do produto, aprovada pela ANVISA em 19/04/2021',
+        ],
         disclaimer: {
           inicio:
-            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek<span><sup>®</sup></span>. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Você poderá acessar a atividade quantas vezes considerar necessário.',
           final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
         <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
         `,
         },
       },
       SAIZEN: {
-        titulo1: 'Tuitek &reg; Latam',
+        titulo1:
+          'Tuitek <span class="registered"><sup>&reg;</sup></span> Latam',
         titulo2: 'Saizen: os fatos ',
         subtitulo: 'Quiz No. 2',
         botonReferencias: 'Referências',
         gracias: 'Obrigado por suas respostas',
         preguntas: [
           {
-            pregunta: 'O que é Saizen®?',
+            pregunta:
+              'O que é Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
-                  'Saizen® é um hormônio do crescimento. A principal ação de Saizen® é aumentar o crescimento em crianças e adolescentes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> é um hormônio do crescimento. A principal ação de Saizen<span class="registered"><sup>®</sup></span> é aumentar o crescimento em crianças e adolescentes.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correto. Saizen® é um hormônio de crescimento que atua para aumentar o crescimento em crianças e adolescentes.',
+                  'Correto. Saizen<span class="registered"><sup>®</sup></span> é um hormônio de crescimento que atua para aumentar o crescimento em crianças e adolescentes.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® é um hormônio que retarda o crescimento em crianças e adolescentes.',
+                  'Saizen<span class="registered"><sup>®</sup></span> é um hormônio que retarda o crescimento em crianças e adolescentes.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+                  'Isto não está correto. Saizen <span class="registered"><sup>®</sup></span> é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Saizen® é um medicamento prescrito usado para prevenir dor de cabeça em crianças e adultos.',
+                  'Saizen<span class="registered"><sup>®</sup></span> é um medicamento prescrito usado para prevenir dor de cabeça em crianças e adultos.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Saizen ® é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.',
+                  'Isto não está correto. Saizen <span class="registered"><sup>®</sup></span> é um hormônio de crescimento para tratar crianças e adultos com deficiência do hormônio do crescimento.<sup>1</sup>',
               },
             ],
           },
           {
-            pregunta: 'Como Saizen® é administrado?',
+            pregunta:
+              'Como Saizen<span class="registered"><sup>®</sup></span> é administrado?',
             respuestas: [
               {
-                respuesta: 'Saizen® é um comprimido administrado diariamente.',
+                respuesta:
+                  'Saizen<span class="registered"><sup>®</sup></span> é um comprimido administrado diariamente.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+                  'Isto não está correto. Saizen<span class="registered"><sup>®</sup></span> é injetado via subcutânea diariamente.',
               },
               {
-                respuesta: 'Saizen® é uma injeção mensal.',
+                respuesta:
+                  'Saizen<span class="registered"><sup>®</sup></span> é uma injeção mensal.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Saizen® é injetado via subcutânea diariamente.',
+                  'Isto não está correto. Saizen<span class="registered"><sup>®</sup></span> é injetado via subcutânea diariamente.',
               },
               {
-                respuesta: 'Saizen® é injetado via subcutânea diariamente.',
+                respuesta:
+                  'Saizen<span class="registered"><sup>®</sup></span> é injetado via subcutânea diariamente.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correto. Saizen® é injetado via subcutânea diariamente.',
+                  'Correto. Saizen<span class="registered"><sup>®</sup></span> é injetado via subcutânea diariamente.<sup>1</sup>',
               },
             ],
           },
@@ -957,42 +984,42 @@ const Data = {
             respuestas: [
               {
                 respuesta:
-                  'Os efeitos colaterais mais comuns de Saizen® são reações no local da injeção, como dor, vermelhidão e inchaço.',
+                  'Os efeitos colaterais mais comuns de Saizen<span class="registered"><sup>®</sup></span> são reações no local da injeção, como dor, vermelhidão e inchaço.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correto. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+                  'Correto. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Os efeitos colaterais comuns de Saizen® são diminuição do apetite e perda de peso.',
+                  'Os efeitos colaterais comuns de Saizen<span class="registered"><sup>®</sup></span> são diminuição do apetite e perda de peso.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Não existem efeitos colaterais conhecidos de Saizen®.',
+                  'Não existem efeitos colaterais conhecidos de Saizen<span class="registered"><sup>®</sup></span>.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.',
+                  'Isto não está correto. Leia a bula informativa do paciente. Você também deve relatar quaisquer efeitos colaterais preocupantes ao profissional de saúde de seu filho, além de quaisquer efeitos colaterais apresentados que não estejam listados na bula informativa do paciente.<sup>1</sup>',
               },
             ],
           },
           {
             pregunta:
-              'Quaisquer injeções consistentemente perdidas de Saizen® afetarão o crescimento.',
+              'Quaisquer injeções consistentemente perdidas de Saizen<span class="registered"><sup>®</sup></span> afetarão o crescimento.<sup>2</sup>',
             respuestas: [
               {
                 respuesta: 'Verdadeiro.',
                 correcta: true,
                 justificacion:
-                  'Correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+                  'Correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.<sup>2</sup>',
               },
               {
                 respuesta: 'Falso.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.',
+                  'Isto não está correto. Fale com o médico do seu filho se você/seu filho continuam perdendo as injeções.<sup>2</sup>',
               },
             ],
           },
@@ -1002,17 +1029,17 @@ const Data = {
             respuestas: [
               {
                 respuesta:
-                  'Aplique uma compressa fria no local da injeção. Isso pode ajudar a reduzir a dor.',
+                  'Aplique uma compressa fria no local da injeção. Isso pode ajudar a reduzir a dor.<sup>1</sup>',
                 correcta: false,
                 justificacion:
-                  'Isto não está totalmente correto. Você também pode usar a distração para ajudar seu filho a esquecer a dor.',
+                  'Isto não está totalmente correto. Você também pode usar a distração para ajudar seu filho a esquecer a dor.<sup>4</sup>',
               },
               {
                 respuesta:
-                  'Distraia seu filho com um brinquedo ou atividade favorita. Isso pode ajudá-los a esquecer a dor.',
+                  'Distraia seu filho com um brinquedo ou atividade favorita. Isso pode ajudá-los a esquecer a dor.<sup>4</sup>',
                 correcta: false,
                 justificacion:
-                  'Isto não está totalmente correto. Você também pode aplicar uma compressa fria no local da injeção para ajudar a reduzir a inflamação e a dor.',
+                  'Isto não está totalmente correto. Você também pode aplicar uma compressa fria no local da injeção para ajudar a reduzir a inflamação e a dor.<sup>5</sup>',
               },
               {
                 respuesta: 'Todos os itens acima.',
@@ -1022,25 +1049,26 @@ const Data = {
             ],
           },
           {
-            pregunta: 'Quanto tempo seu filho deve administrar Saizen®?',
+            pregunta:
+              'Quanto tempo seu filho deve administrar Saizen<span class="registered"><sup>®</sup></span>?',
             respuestas: [
               {
                 respuesta:
                   'Seu filho precisa fazer esse tratamento pelo resto da vida e precisa continuar sendo avaliado pelo médico.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico<sup>1</sup>. Não pare de administrar Saizen<span><sup>®</sup></span> sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
               },
               {
                 respuesta:
                   'Seu filho pode interromper o tratamento quando sentir que alcançou uma altura satisfatória.',
                 correcta: false,
                 justificacion:
-                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico.',
+                  'Isto não está correto. Seu filho deve parar de usar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliação do médico<sup>1</sup>. Não pare de administrar Saizen<span><sup>®</sup></span> sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
               },
               {
                 respuesta:
-                  'Seu filho deve parar de administrar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliado pelo médico ou por outras razões, se necessário.',
+                  'Seu filho deve parar de administrar este tratamento quando alcançar uma altura adulta satisfatória, conforme avaliado pelo médico ou por outras razões, se necessário.<sup>1</sup>',
                 correcta: true,
                 justificacion:
                   'Correto. Não pare de administrar Saizen® sem falar com o médico do seu filho. Se ainda tiver perguntas adicionais sobre a administração deste medicamento, pergunte ao médico ou farmacêutico do seu filho.',
@@ -1048,10 +1076,20 @@ const Data = {
             ],
           },
         ],
-        referencias: [],
+        referencias: [
+          '<sup>1</sup> Saizen® Somatropina Solução injetável, bula do produto, aprovada pela ANVISA em 19/04/2021',
+
+          '<sup>2</sup> Van Dommelen P, Koledova E, Wit JM. Effect of adherence to growth hormone treatment on 0–2 year catch-up growth in children with growth hormone deficiency. PloS one. 2018 Oct 24;13(10):e0206009.',
+
+          '<sup>3</sup> Dealing with Injection Site Pain [Internet]. NHS; [citado em 3 de junho de 2023]. Disponível em: <a href="https://www.porthosp.nhs.uk/departments/rheumatology/dealing-with-injection-site-pain.htm">https://www.porthosp.nhs.uk/departments/rheumatology/dealing-with-injection-site-pain.htm</a>',
+
+          '<sup>4</sup> Distraction [Internet]. NHS; 2020 [citado em 1 de junho de 2023]. Disponível em: <a href="https://www.gosh.nhs.uk/conditions-and-treatments/procedures-and-treatments/distraction/">https://www.gosh.nhs.uk/conditions-and-treatments/procedures-and-treatments/distraction/</a>',
+
+          '<sup>5</sup> Taddio A, Appleton M, Bortolussi R, Chambers C, Dubey V, Halperin S, Hanrahan A, Ipp M, Lockett D, MacDonald N, Midmer D. Reducing the pain of childhood vaccination: an evidence-based clinical practice guideline. Cmaj. 2010 Dec 14;182(18):E843-55.',
+        ],
         disclaimer: {
           inicio:
-            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Sugerimos que faça o download do documento para realizar a atividade e depois guarde-o para o ter à mão quando o quiser consultar.',
+            'Este material foi concebido como uma atividade complementar que você pode realizar para reforçar as informações recebidas sobre a Tuitek<span><sup>®</sup></span>. Esperamos que ajude! Você é o dono de todas as respostas que dá e que decide compartilhar por seus próprios meios. Você poderá acessar a atividade quantas vezes considerar necessário.',
           final: `BR-SAI-00414, Set/23. As informações incluídas aqui ou qualquer informação adicional fornecida pelo Programa de Suporte ao Paciente da Merck não substituem de forma alguma os conselhos médicos. Em caso de alguma dúvida sobre sua condição, tratamento e/ou o conteúdo deste material, consulte seu médico. Para uso exclusivo dos pacientes do PSP. Proibida sua reprodução total ou parcial.
         <br>[2023] MERCK S.A || © Todos os direitos reservados. Estrada dos Bandeirantes, 1099, Jacarepaguá – Rio de Janeiro - RJ, CEP 22.710.571, Brasil
         `,
