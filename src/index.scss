@@ -1,6 +1,69 @@
 $bg: #ffffff;
 $card-bg: #c4c4c4;
-$font-color: #6021b1;
+$themes: (
+  dhc: (
+    primary: #50bfc1,
+    secondary: #ffc832,
+  ),
+  saizen: (
+    primary: rgb(255, 60, 83),
+    secondary: #ffc832,
+  ),
+);
+$breakpoints: (
+  sm: (
+    min: 576px,
+    max: 575.98px,
+  ),
+  md: (
+    min: 768px,
+    max: 767.98px,
+  ),
+  lg: (
+    min: 992px,
+    max: 991.98px,
+  ),
+  xl: (
+    min: 1200px,
+    max: 1199.98px,
+  ),
+  xxl: (
+    min: 1400px,
+    max: 1399.98px,
+  ),
+);
+
+@mixin breakpoint($breakpoint, $direction: min) {
+  //check if the supplied breakpoint exists in our breakpoits map
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-values: map-get($breakpoints, $breakpoint);
+    $breakpoint-min: map-get($breakpoint-values, min);
+    $breakpoint-max: map-get($breakpoint-values, max);
+
+    //check if we are writing styles for larger or smaller screens
+    @if $direction == min {
+      @media (min-width: $breakpoint-min) {
+        @content;
+      }
+    } @else {
+      @media (max-width: $breakpoint-max) {
+        @content;
+      }
+    }
+
+    // use the custom value if the breakpoint is not part of the pre-defined list
+  } @else {
+    @if $direction == min {
+      @media (min-width: $breakpoint) {
+        @content;
+      }
+    } @else {
+      @media (max-width: $breakpoint) {
+        @content;
+      }
+    }
+  }
+}
 
 body {
   all: unset;
@@ -8,71 +71,102 @@ body {
 }
 
 #root {
-  height: 100hv;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
+#dhc {
+  background-image: url(/src/assets/start-dhc.png);
+  @include breakpoint(sm) {
+    background-image: url(/src/assets/startES.svg);
+  }
+}
 
+#saizen {
+  background-image: url(/src/assets/startPT.svg);
+}
 .inicio {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  background-image: url(/src/assets/startES.svg);
+
+  @include breakpoint(sm) {
+    align-content: initial;
+    padding-left: 1rem;
+  }
+
+  #logo {
+    width: 2rem;
+    height: 2rem;
+  }
 
   .empezar {
+    width: 80%;
+    height: 10%;
+    padding: 24px 56px 24px 40px;
+    font-size: 24px;
+    line-height: 32px;
     cursor: pointer;
     color: #fff;
     text-align: center;
     font-family: Verdana;
-    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 54px; /* 135% */
     text-transform: uppercase;
-    position: absolute;
-    bottom: 30%;
-    left: 35%;
+    align-self: center;
     display: flex;
-    width: 30%;
-    height: 13%;
-    padding: 24px 56px 24px 40px;
     justify-content: center;
     align-items: center;
     gap: 32px;
     flex-shrink: 0;
     border-radius: 8px;
+
+    @include breakpoint(sm) {
+      width: 30%;
+    }
   }
 
   .texto {
-    position: absolute;
+    width: 80%;
+    font-size: 12px;
+    line-height: 12px;
     text-align: justify;
     font-weight: bold;
-    width: 25%;
-    left: 1rem;
-    bottom: 1rem;
+
     color: #111;
     font-family: Verdana;
-    font-size: 8px;
     font-style: normal;
     font-weight: 700;
-    line-height: 14.5px; /* 181.25% */
-    text-transform: uppercase;
+
+    @include breakpoint(md) {
+      width: 40%;
+    }
   }
 
   .titulo-quiz {
-    position: absolute;
-    top: 3rem;
-    left: 1rem;
-    width: 25%;
     color: #111;
     font-family: Verdana;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 14.5px; /* 181.25% */
-    text-transform: uppercase;
+    text-transform: capitalize;
+    flex: 0.4;
+
+    .titulo {
+      display: flex;
+      margin-bottom: 1rem;
+    }
+
+    @include breakpoint(sm) {
+      align-self: self-start;
+    }
   }
 }
 
@@ -83,47 +177,60 @@ body {
 }
 .sidebar {
   grid-area: sidebar;
-  background-image: url(/src/assets/quiz-title.svg);
   background-repeat: no-repeat;
   min-width: 370px;
 }
-.respuestas {
-  grid-area: main;
-  column-span: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .footer {
   grid-area: footer;
+  margin-top: 2rem;
   column-span: 2;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 .numero-pregunta {
+  font-size: 1.5rem;
+  img {
+    width: 100%;
+    height: 50%;
+  }
+  margin-top: 50px;
   color: #fff;
   text-align: center;
   font-family: 'Sniglet';
-  font-size: 90px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 22.222% */
   text-transform: uppercase;
   position: relative;
   grid-area: number;
+  @include breakpoint(sm) {
+    font-size: 3rem;
+  }
+
+  @include breakpoint(md) {
+    font-size: 90px;
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
 }
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @include breakpoint(md) {
+    top: 40%;
+  }
 }
 
 .quiz-container {
   width: 100%;
-  height: 950px;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto;
@@ -131,22 +238,42 @@ body {
     'sidebar header number'
     'sidebar main .'
     'sidebar footer .';
+  overflow: scroll;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.quiz-container#dhc {
+  background-image: url(/src/assets/bg-dhc.png);
+}
+.quiz-container#saizen {
+  background-image: url(/src/assets/bg-saizen.png);
 }
 .respuestas {
   display: grid;
-  grid-gap: 10px;
-  height: 470px;
+  grid-area: main;
+  max-height: 28rem;
+  min-height: 24rem;
+  justify-content: center;
 }
 
 .respuesta {
   display: flex;
-  width: 665px;
+  max-width: 665px;
   height: 130px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   background-color: $card-bg;
   border-radius: 16px;
+  min-width: 280px;
+  margin-bottom: 0.5rem;
+  padding-inline: 10px;
+
+  @include breakpoint(md) {
+    padding-inline: 0;
+  }
+
   &#correcta {
     border: 0.7rem solid #3ca33c;
     box-sizing: border-box;
@@ -177,20 +304,16 @@ body {
   color: #000;
   text-align: center;
   font-family: Verdana;
-  font-size: 16px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 125% */
-  max-width: 513px;
-}
+  width: 100%;
+  padding-inline: 1rem;
 
-.numero-pregunta {
-  width: 114px;
-  height: 114px;
-  fill: #50bfc1;
-  stroke-width: 7px;
-  stroke: #ffc832;
-  margin-top: 50px;
+  @include breakpoint(md) {
+    font-size: 16px;
+  }
 }
 
 .header-container {
@@ -202,16 +325,18 @@ body {
   color: #1c361c;
   text-align: center;
   font-family: Verdana;
-  font-size: 28px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 52px; /* 185.714% */
   max-width: 800px;
   margin-inline: auto;
-  margin-top: 50px;
-  height: 250px;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
+
+  @include breakpoint(md) {
+    font-size: 28px;
+  }
 }
 .footer > button {
   all: unset;
@@ -228,38 +353,105 @@ body {
   background: #fff;
   color: #ffc832 !important;
   height: 1rem;
+  width: 90%;
 }
 
 .referencias {
   position: absolute;
   top: 1rem;
-  right: 30%;
+  right: 20%;
 }
 
 .final {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/src/assets/startES.svg);
+  flex-wrap: wrap;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include breakpoint(sm) {
+    align-content: initial;
+    padding-left: 1rem;
+  }
+  background-image: url(/src/assets/start-dhc.png);
 
   .gracias {
-    width: 40%;
     text-align: center;
     font-family: Verdana;
-    font-size: 48px;
+    font-size: 30px;
     font-style: normal;
     font-weight: bold;
     line-height: 64px; /* 133.333% */
     text-transform: uppercase;
+
+    @include breakpoint(sm) {
+      width: 40%;
+      font-size: 48px;
+    }
   }
 
   .texto {
+    width: 80%;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: justify;
     font-weight: bold;
-    text-align: center;
-    width: 100%;
-    max-width: 60% !important;
+
+    color: #111;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    @include breakpoint(md) {
+      width: 40%;
+    }
+  }
+}
+
+.registered {
+  font-size: medium;
+}
+
+.progress-btn {
+  width: 3rem;
+  height: 3rem;
+
+  @include breakpoint(sm) {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  @include breakpoint(md) {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 520px) {
+    @content;
+  }
+}
+
+@mixin svgStyle($color, $width, $height, $hovercolor: null) {
+  svg {
+    width: $width;
+    height: $height;
+    path {
+      stroke: $color;
+    }
+  }
+  svg:hover {
+    fill: $hovercolor;
   }
 }

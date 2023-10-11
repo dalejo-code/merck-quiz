@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Numero from './assets/numero_pregunta.svg';
-import Left from './components/Left';
-import Right from './components/Right';
+import Numero2 from './assets/numero_pregunta2.svg';
+import Left from './assets/left.png';
+import Right from './assets/right.png';
 import Respuesta from './components/Respuesta';
 import Inicio from './components/Inicio';
 import LinearProgress from '@mui/joy/LinearProgress';
@@ -9,10 +10,20 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { style } from './components/Respuesta';
-import { Referencias } from '../Referencias';
 import Final from './components/Final';
+import parse from 'html-react-parser';
 
-const Quiz = ({ preguntas, disclaimer, idioma }) => {
+const Quiz = ({ data, type }) => {
+  const {
+    preguntas,
+    disclaimer,
+    referencias,
+    titulo1,
+    titulo2,
+    subtitulo,
+    botonReferencias,
+    gracias,
+  } = data;
   const [stage, setStage] = useState(-2);
   const [questions, setQuestions] = useState(preguntas);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -54,7 +65,10 @@ const Quiz = ({ preguntas, disclaimer, idioma }) => {
       <Inicio
         disclaimer={disclaimer}
         setStage={() => setStage(stage + 2)}
-        idioma={idioma}
+        titulo1={titulo1}
+        titulo2={titulo2}
+        subtitulo={subtitulo}
+        type={type}
       />
     );
   }
@@ -63,29 +77,34 @@ const Quiz = ({ preguntas, disclaimer, idioma }) => {
     questions[currentQuestionIndex];
   return stage <= 5 ? (
     <>
-      <div className="quiz-container">
-        <div className="sidebar"></div>
+      <div className="quiz-container" id={type === 'DHC' ? 'dhc' : 'saizen'}>
         <div className="header pregunta">
-          <div>{pregunta}</div>
+          <div>{parse(pregunta)}</div>
           <button className="referencias" onClick={() => toggleReferences()}>
-            {idioma === 'ES' ? 'Referencias' : 'Referências'}
+            {botonReferencias}
           </button>
         </div>
         <div>
           <Modal
+            size="lg"
             open={showReferences}
             onClose={toggleReferences}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description">
             <Box sx={style}>
-              <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                {Referencias.dhc}
-              </Typography>
+              {referencias.map((referencia, key) => (
+                <Typography
+                  key={'referencia-' + key}
+                  id="modal-modal-description"
+                  sx={{ mt: 2 }}>
+                  {parse(referencia)}
+                </Typography>
+              ))}
             </Box>
           </Modal>
         </div>
         <div className="numero-pregunta">
-          <img src={Numero} alt="" />
+          <img src={type === 'DHC' ? Numero : Numero2} alt="" />
           <div className="centered">{currentQuestionIndex + 1}</div>
         </div>
 
@@ -107,11 +126,7 @@ const Quiz = ({ preguntas, disclaimer, idioma }) => {
             onClick={
               currentQuestionIndex > 0 ? () => handlePreviousQuestion() : null
             }>
-            <Left
-              style={{
-                visibility: currentQuestionIndex > 0 ? 'visible' : 'hidden',
-              }}
-            />
+            <img className="progress-btn" src={Left} alt="left" />
           </button>
           <LinearProgress
             className="progress"
@@ -126,13 +141,13 @@ const Quiz = ({ preguntas, disclaimer, idioma }) => {
                 ? () => handleNextQuestion()
                 : null
             }>
-            <Right />
+            <img className="progress-btn" src={Right} alt="right" />
           </button>
         </div>
       </div>
     </>
   ) : (
-    <Final disclaimer={disclaimer} idioma={idioma} />
+    <Final disclaimer={disclaimer} type={type} gracias={gracias} />
   );
 };
 

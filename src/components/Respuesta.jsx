@@ -3,13 +3,14 @@ import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import parse from 'html-react-parser';
 
 export const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: '80%',
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -57,7 +58,7 @@ const Respuesta = ({
           aria-describedby="modal-modal-description">
           <Box sx={style}>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              {respuesta.justificacion}
+              {parse(respuesta.justificacion)}
             </Typography>
           </Box>
         </Modal>
@@ -72,7 +73,7 @@ const Respuesta = ({
             : null
         }
         onClick={() => handleAnswer(currentAnswer)}>
-        <div className="texto">{respuesta.respuesta}</div>
+        <div className="texto">{parse(respuesta.respuesta)}</div>
       </div>
     </>
   );

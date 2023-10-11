@@ -15,9 +15,12 @@
     "@fontsource/sniglet": "^5.0.8",
     "@mui/joy": "^5.0.0-beta.7",
     "@mui/material": "^5.14.10",
+    "html-react-parser": "^4.2.2",
+    "html-to-react": "^1.7.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
