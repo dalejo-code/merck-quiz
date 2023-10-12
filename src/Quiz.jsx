@@ -76,13 +76,18 @@ const Quiz = ({ data, type }) => {
   const { pregunta, respuestas, respuestaSeleccionada } =
     questions[currentQuestionIndex];
   return stage <= 5 ? (
-    <>
-      <div className="quiz-container" id={type === 'DHC' ? 'dhc' : 'saizen'}>
+    <div className="container" id={type === 'DHC' ? 'dhc' : 'saizen'}>
+      <div className="quiz-container">
         <div className="header pregunta">
           <div>{parse(pregunta)}</div>
           <button className="referencias" onClick={() => toggleReferences()}>
             {botonReferencias}
           </button>
+          <div
+            className="numero-pregunta"
+            id={type === 'DHC' ? 'dhc' : 'saizen'}>
+            <div className="centered">{currentQuestionIndex + 1}</div>
+          </div>
         </div>
         <div>
           <Modal
@@ -102,9 +107,6 @@ const Quiz = ({ data, type }) => {
               ))}
             </Box>
           </Modal>
-        </div>
-        <div className="numero-pregunta" id={type === 'DHC' ? 'dhc' : 'saizen'}>
-          <div className="centered">{currentQuestionIndex + 1}</div>
         </div>
 
         <div className="respuestas">
@@ -144,7 +146,7 @@ const Quiz = ({ data, type }) => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   ) : (
     <Final disclaimer={disclaimer} type={type} gracias={gracias} />
   );
