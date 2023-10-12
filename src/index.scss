@@ -190,7 +190,6 @@ body {
   align-items: flex-start;
 }
 .numero-pregunta {
-  background-image: url(/src/assets/numero_pregunta.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 50px;
@@ -209,6 +208,12 @@ body {
     width: 100px;
     height: 100px;
   }
+}
+.numero-pregunta#dhc {
+  background-image: url(/src/assets/numero_pregunta.svg);
+}
+.numero-pregunta#saizen {
+  background-image: url(/src/assets/numero_pregunta2.svg);
 }
 
 .centered {

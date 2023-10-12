@@ -103,7 +103,7 @@ const Quiz = ({ data, type }) => {
             </Box>
           </Modal>
         </div>
-        <div className="numero-pregunta">
+        <div className="numero-pregunta" id={type === 'DHC' ? 'dhc' : 'saizen'}>
           <div className="centered">{currentQuestionIndex + 1}</div>
         </div>
 
