@@ -104,7 +104,6 @@ const Quiz = ({ data, type }) => {
           </Modal>
         </div>
         <div className="numero-pregunta">
-          <img src={type === 'DHC' ? Numero : Numero2} alt="" />
           <div className="centered">{currentQuestionIndex + 1}</div>
         </div>
 
