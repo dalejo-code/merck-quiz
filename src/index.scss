@@ -202,7 +202,7 @@ body {
 }
 .numero-pregunta {
   position: absolute;
-  top: 0;
+  top: -3rem;
   right: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -258,9 +258,16 @@ body {
   padding: 2rem;
   padding-top: 7rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  @include breakpoint(md) {
+    min-height: 35rem;
+  }
 }
 
 .respuestas {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -317,7 +324,7 @@ body {
   font-weight: 400;
   line-height: 20px; /* 125% */
   width: 100%;
-  padding-inline: 1rem;
+  padding: 0.7rem;
 
   @include breakpoint(md) {
     font-size: 16px;
@@ -336,7 +343,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  max-width: 800px;
+  width: 100%;
   margin-inline: auto;
   display: flex;
   flex-direction: column;
@@ -366,7 +373,7 @@ body {
 
 .referencias {
   position: absolute;
-  top: 1rem;
+  top: -3rem;
   right: 20%;
 }
 
