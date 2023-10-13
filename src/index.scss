@@ -28,8 +28,8 @@ $breakpoints: (
     max: 1199.98px,
   ),
   xxl: (
-    min: 1400px,
-    max: 1399.98px,
+    min: 1800px,
+    max: 1799.98px,
   ),
 );
 
@@ -265,10 +265,13 @@ body {
     min-height: 35rem;
   }
   @include breakpoint(lg) {
-    min-height: 45rem;
+    min-height: 30rem;
   }
   @include breakpoint(xl) {
-    min-height: 55rem;
+    min-height: 35rem;
+  }
+  @include breakpoint(xxl) {
+    min-height: 40rem;
   }
 }
 
