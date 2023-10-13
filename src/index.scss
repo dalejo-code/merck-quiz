@@ -264,6 +264,12 @@ body {
   @include breakpoint(md) {
     min-height: 35rem;
   }
+  @include breakpoint(lg) {
+    min-height: 45rem;
+  }
+  @include breakpoint(xl) {
+    min-height: 55rem;
+  }
 }
 
 .respuestas {
