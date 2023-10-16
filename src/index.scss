@@ -292,16 +292,13 @@ body {
   display: flex;
   flex-direction: column;
   @include breakpoint(md) {
-    min-height: 35rem;
+    min-height: 37rem;
   }
   @include breakpoint(lg) {
-    min-height: 38rem;
-  }
-  @include breakpoint(xl) {
-    min-height: 53rem;
+    min-height: 47rem;
   }
   @include breakpoint(xxl) {
-    min-height: 55rem;
+    min-height: 57rem;
   }
 }
 
@@ -326,10 +323,6 @@ body {
   margin-bottom: 0.5rem;
 
   @include breakpoint(lg) {
-    min-height: 6rem;
-  }
-  @include breakpoint(xl) {
-    padding: 1rem;
     min-height: 8rem;
   }
   @include breakpoint(xxl) {
@@ -378,10 +371,6 @@ body {
     line-height: 16px;
   }
   @include breakpoint(lg) {
-    font-size: 18px;
-    line-height: 18px;
-  }
-  @include breakpoint(xl) {
     font-size: 20px;
     line-height: 20px;
   }
@@ -414,10 +403,6 @@ body {
     line-height: 28px;
   }
   @include breakpoint(lg) {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  @include breakpoint(xl) {
     font-size: 32px;
     line-height: 32px;
   }
@@ -448,7 +433,10 @@ body {
   position: absolute;
   top: -3rem;
   right: 20%;
-  font-size: 22px;
+  font-size: 14px;
+  @include breakpoint(lg) {
+    font-size: 22px;
+  }
 }
 
 .final {
