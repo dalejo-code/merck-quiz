@@ -153,14 +153,14 @@ const Data = {
                 respuesta: 'Hablar con el médico',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede obtener información útil si habla con su equipo de salud.',
+                  'No es correcto. También puede obtener información útil en páginas web confiables.',
               },
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede obtener información útil en páginas web confiables.',
+                  'No es correcto. También puede obtener información útil si habla con su equipo de salud.',
               },
               {
                 respuesta: 'Todas las anteriores',
@@ -182,7 +182,7 @@ const Data = {
         ],
         disclaimer: {
           inicio:
-            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Le sugerimos descargar el documento para que pueda realizar la actividad y luego guardarlo para tenerlo a mano cuando lo quiera consultar.',
+            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek<span><sup>®</sup></span>. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Podrá acceder a la actividad las veces que lo considere necesario.',
           final: `CT-SAI-00129, Sep/2023 La información aquí contenida o cualquier información adicional brindada por el Programa de Soporte a Pacientes de Merck no sustituye en ningún caso el consejo médico. Ante cualquier duda sobre su condición, tratamiento y/o el contenido de este material consulte a su médico. Para uso exclusivo a pacientes de PSP. Prohibida su reproducción total o parcial.
           <br>[2023] MERCK S.A. || © Todos los derechos reservados. 12 Avenida 0-33, Zona 2 de Mixco, Código Postal 01057, Ciudad de Guatemala.`,
         },
@@ -303,14 +303,14 @@ const Data = {
                   'Aplicar una compresa fría en el sitio de inyección. Eso puede reducir el dolor.<sup>2</sup>',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede aplicar una compresa fría en el sitio de inyección para reducir la inflamación y el dolor.<sup>3</sup>',
+                  'No es correcto. También se puede usar la distracción para que el niño se olvide un poco del dolor.<sup>4</sup>',
               },
               {
                 respuesta:
                   'Distraer al niño con algún juguete o una actividad que le guste. Eso puede ayudarlos a olvidarse un poco del dolor.<sup>3</sup>',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También se puede usar la distracción para que el niño se olvide un poco del dolor.<sup>4</sup>',
+                  'No es correcto. También puede aplicar una compresa fría en el sitio de inyección para reducir la inflamación y el dolor.<sup>3</sup>',
               },
               {
                 respuesta: 'Todas las anteriores.',
@@ -741,8 +741,6 @@ const Data = {
         gracias: 'Gracias por sus Respuestas',
         preguntas: [
           {
-            id: 1,
-            respuestaSeleccionada: null,
             pregunta:
               '¿Qué es la deficiencia de la hormona de crecimiento (DHC)?',
             respuestas: [
@@ -750,55 +748,52 @@ const Data = {
                 respuesta:
                   'La deficiencia de la hormona de crecimiento (DHC) ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.<sup>1</sup>',
                 correcta: true,
-                justificacion: 'Correcto.',
+                justificacion:
+                  'Correcto. La DHC ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.',
               },
               {
                 respuesta:
                   'La deficiencia de la hormona de crecimiento (DHC) es una enfermedad autoinmunitaria que impide que el cuerpo produzca insulina (la hormona que regula los niveles de azúcar en sangre).',
                 correcta: false,
                 justificacion:
-                  'No es correcto. La deficiencia de la hormona de crecimiento (DHC) ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.<sup>1</sup>',
+                  'No es correcto. La DHC ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.<sup>1</sup>',
               },
               {
                 respuesta:
                   'La deficiencia de la hormona de crecimiento (DHC) ocurre cuando la glándula pituitaria produce y libera demasiada hormona de crecimiento, por lo que el cuerpo se desarrolla a una tasa que duplica la normal.<sup>1</sup>',
                 correcta: false,
                 justificacion:
-                  'No es correcto. La deficiencia de la hormona de crecimiento (DHC) ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.<sup>1</sup>',
+                  'No es correcto. La DHC ocurre cuando la glándula pituitaria no produce ni libera la cantidad suficiente de hormona de crecimiento para que el cuerpo se desarrolle a una tasa normal.<sup>1</sup>',
               },
             ],
           },
           {
-            id: 2,
-            respuestaSeleccionada: null,
-            pregunta: '¿Cuáles son los signos y síntomas de DHC?',
+            pregunta: '¿Cuáles son los signos de DHC?',
             respuestas: [
               {
                 respuesta:
-                  'Los síntomas de la deficiencia de la hormona de crecimiento incluyen dolor de cabeza, aura y sensibilidad a la luz.',
+                  'Los signos de la deficiencia de la hormona de crecimiento incluyen dolor de cabeza, aura y sensibilidad a la luz.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Los síntomas de la deficiencia de la hormona de crecimiento incluyen estatura baja, retraso de la pubertad y masa muscular reducida.<sup>1</sup>',
+                  'No es correcto. Los signos de la DHC incluyen estatura baja, retraso de la pubertad y masa muscular reducida.<sup>1</sup>',
               },
               {
                 respuesta:
-                  'Los síntomas de la deficiencia de la hormona de crecimiento incluyen estatura baja, en algunos casos también retraso de la pubertad, y masa muscular reducida.<sup>1</sup>',
+                  'Los signos de la deficiencia de la hormona de crecimiento incluyen estatura baja, en algunos casos también retraso de la pubertad, y masa muscular reducida.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Esos son algunos de los signos y síntomas de DHC.',
+                  'Correcto. Estos son algunos de los signos de la DHC.',
               },
               {
                 respuesta:
-                  'Los síntomas de la deficiencia de la hormona de crecimiento incluyen estatura alta, inicio temprano de la pubertad y masa muscular aumentada.',
+                  'Los signos de la deficiencia de la hormona de crecimiento incluyen estatura alta, inicio temprano de la pubertad y masa muscular aumentada.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. Los síntomas de la deficiencia de la hormona de crecimiento incluyen estatura baja, retraso de la pubertad y masa muscular reducida.<sup>1</sup>',
+                  'No es correcto. Los signos de la DHC incluyen estatura baja, retraso de la pubertad y masa muscular reducida.<sup>1</sup>',
               },
             ],
           },
           {
-            id: 3,
-            respuestaSeleccionada: null,
             pregunta:
               'El tratamiento con hormona de crecimiento puede tener efectos positivos sobre otros aspectos del desarrollo de su hijo, en particular, el nivel de energía, la autoestima y el bienestar emocional general.<sup>2</sup>',
             respuestas: [
@@ -806,19 +801,17 @@ const Data = {
                 respuesta: 'Verdadero',
                 correcta: true,
                 justificacion:
-                  'Correcto. Muchos niños dicen que el tratamiento mejora su bienestar general, además de los síntomas de DHC.<sup>2</sup>',
+                  'Correcto. El tratamiento puede tener efectos positivos en otros aspectos del desarrollo, incluyendo el nivel de energía, la autoestima y el bienestar emocional general de su hijo.<sup>2</sup>',
               },
               {
                 respuesta: 'Falso',
                 correcta: false,
                 justificacion:
-                  'No es correcto. El tratamiento puede tener efectos positivos sobre otros aspectos del desarrollo de su hijo, en particular, el nivel de energía, la autoestima y el bienestar emocional general.<sup>2</sup>',
+                  'No es correcto. El tratamiento puede tener efectos positivos en otros aspectos del desarrollo, incluyendo el nivel de energía, la autoestima y el bienestar emocional general de su hijo.<sup>2</sup>',
               },
             ],
           },
           {
-            id: 4,
-            respuestaSeleccionada: null,
             pregunta:
               '¿Cómo se maneja la DHC? Elija todas las respuestas que correspondan.',
             respuestas: [
@@ -834,20 +827,18 @@ const Data = {
                   'No olvidarse de seguir el tratamiento tal como está indicado',
                 correcta: true,
                 justificacion:
-                  'Correcto. Seguir una dieta equilibrada, hacer ejercicio regularmente, dormir bien y seguir el tratamiento tal como está indicado contribuyen al manejo de la DHC.<sup>3</sup>',
+                  '. Correcto. Seguir una dieta equilibrada, hacer ejercicio regularmente, dormir bien y seguir el tratamiento tal como está indicado contribuyen al manejo de la DHC.<sup>3</sup>',
               },
               {
                 respuesta:
                   'No prestar atención a los síntomas y desear que pronto desaparezcan',
                 correcta: false,
                 justificacion:
-                  'No es correcto. No prestar atención a los síntomas no los hará desaparecer. Hable con el médico sobre las cosas que puede hacer para manejar mejor sus síntomas.',
+                  'No es correcto. Ignorar los síntomas no hará que desaparezcan. Es importante seguir el tratamiento y hablar con el médico sobre el manejo de los síntomas.',
               },
             ],
           },
           {
-            id: 5,
-            respuestaSeleccionada: null,
             pregunta:
               '¿Qué beneficios puede esperar para su hijo con el tratamiento de DHC?',
             respuestas: [
@@ -856,7 +847,7 @@ const Data = {
                   'Los niños con DHC que reciben tratamiento tendrán más fuerza muscular y mejor rendimiento atlético cuando sean adultos.',
                 correcta: false,
                 justificacion:
-                  'No es correcto. No se ha demostrado que el tratamiento tenga algún efecto sobre la fuerza muscular o el rendimiento atlético.',
+                  'No es correcto. No se ha demostrado que el tratamiento tenga efectos sobre la fuerza muscular o el rendimiento atlético.',
               },
               {
                 respuesta:
@@ -867,16 +858,14 @@ const Data = {
               },
               {
                 respuesta:
-                  'Los niños con DHC que reciben tratamiento suelen alcanzar una estatura normal en la adultez, siempre y cuando tengan un diagnóstico temprano que permita el crecimiento compensatorio.<sup>1</sup>',
+                  'Los niños con DHC que reciben tratamiento suelen alcanzar una estatura acorde a su potencial en la adultez, siempre y cuando tengan un diagnóstico temprano que permita el crecimiento compensatorio.<sup>1</sup>',
                 correcta: true,
                 justificacion:
-                  'Correcto. Si su hijo tuvo un diagnóstico temprano, es probable que alcance una estatura normal en la adultez.<sup>1</sup>',
+                  'Correcto. Si su hijo tiene un diagnóstico temprano, es probable que alcance una estatura acorde a su potencial en la adultez.<sup>1</sup>',
               },
             ],
           },
           {
-            id: 6,
-            respuestaSeleccionada: null,
             pregunta:
               '¿Dónde puedo encontrar más información sobre DHC?<sup>4</sup>',
             respuestas: [
@@ -884,20 +873,20 @@ const Data = {
                 respuesta: 'Hablar con el médico',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede obtener información útil si habla con su equipo de salud.',
+                  'No es correcto. También puede obtener información útil en páginas web confiables.',
               },
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
-                correcta: false,
+                correcta: true,
                 justificacion:
-                  'No es correcto. También puede obtener información útil en páginas web confiables.',
+                  'Correcto. Puede obtener información útil de estas fuentes.',
               },
               {
                 respuesta: 'Todas las anteriores',
-                correcta: true,
+                correcta: false,
                 justificacion:
-                  'Correcto. Puede obtener información útil de las dos fuentes.',
+                  'No es correcto. No es necesario hablar solo con el médico. Las páginas web confiables también son una fuente útil de información.',
               },
             ],
           },
@@ -913,7 +902,7 @@ const Data = {
         ],
         disclaimer: {
           inicio:
-            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Le sugerimos descargar el documento para que pueda realizar la actividad y luego guardarlo para tenerlo a mano cuando lo quiera consultar.',
+            'Este material fue diseñado como actividad complementaria que usted podrá realizar con el fin de reforzar la información recibida sobre Tuitek<span><sup>®</sup></span>. ¡Esperamos sea de ayuda! Usted es el dueño de todas las respuestas que otorgue y que decida compartir por sus propios medios. Podrá acceder a la actividad las veces que lo considere necesario.',
           final: `CL-SAI-00100, Sep/2023 La información aquí contenida o cualquier información adicional brindada por el Programa de Soporte a Pacientes de Merck no sustituye en ningún caso el consejo médico. Ante cualquier duda sobre su condición, tratamiento y/o el contenido de este material consulte a su médico. Para uso exclusivo a pacientes de PSP. Prohibida su reproducción total o parcial.
             <br>[2023] MERCK S.A. || © Todos los derechos reservados. Los Conquistadores 1730, Piso 19 y 20, Torre Nueva Santa María, Providencia, Santiago, Chile.`,
         },
@@ -1031,14 +1020,14 @@ const Data = {
                   'Aplicar una compresa fría en el sitio de inyección. Eso puede reducir el dolor.<sup>2</sup>',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede aplicar una compresa fría en el sitio de inyección para reducir la inflamación y el dolor.<sup>3</sup>',
+                  'No es correcto. También se puede usar la distracción para que el niño se olvide un poco del dolor.<sup>4</sup>',
               },
               {
                 respuesta:
                   'Distraer al niño con algún juguete o una actividad que le guste. Eso puede ayudarlos a olvidarse un poco del dolor.<sup>3</sup>',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También se puede usar la distracción para que el niño se olvide un poco del dolor.<sup>4</sup>',
+                  'No es correcto. También puede aplicar una compresa fría en el sitio de inyección para reducir la inflamación y el dolor.<sup>3</sup>',
               },
               {
                 respuesta: 'Todas las anteriores.',
