@@ -1,8 +1,65 @@
-# React + Vite
+# Merck Quiz para DHC y SAIZEN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para generar la build de produccion debes configurar el archivo `.env`
 
-Currently, two official plugins are available:
+1. Crear el archivo `.env`
+2. Configurar las variables de entorno para el quiz, las posibles combinaciones son:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Para Español:
+  - Standard DHC:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=ST
+      VITE_QUIZ=DHC
+    ```
+  - Standard SAIZEN:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=ST
+      VITE_QUIZ=SAIZEN
+    ```
+  - Central DHC:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=CT
+      VITE_QUIZ=DHC
+    ```
+  - Central Saizen:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=CT
+      VITE_QUIZ=SAIZEN
+    ```
+  - Chile DHC:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=CH
+      VITE_QUIZ=DHC
+    ```
+  - Chile SAIZEN:
+    ```
+      VITE_IDIOMA=ES
+      VITE_ZONA=CH
+      VITE_QUIZ=DHC
+    ```
+- Para Portugues:
+  - DHC:
+    ```
+    VITE_IDIOMA=PT
+    VITE_ZONA=ST
+    VITE_QUIZ=DHC
+    ```
+  - SAIZEN:
+    ```
+      VITE_IDIOMA=PT
+      VITE_ZONA=ST
+      VITE_QUIZ=SAIZEN
+    ```
+
+3. Una vez creado el arrchivo `.env` con las variables para el respectivo quiz debes correr el siguiente comando en la terminal:
+
+- `npm run build`
+- esto creara una carpeta `dist` con los archivos necesarios para el quiz especificado en el archivo `.env`
+
+4.  Debes copiar los archivos de la carpeta `dist` que son los que iran en el servidor
+5.  Debes hacer lo mismo para cada uno de los quiz en la lista
