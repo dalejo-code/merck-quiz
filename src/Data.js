@@ -878,15 +878,15 @@ const Data = {
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
-                correcta: true,
-                justificacion:
-                  'Correcto. Puede obtener información útil de estas fuentes.',
-              },
-              {
-                respuesta: 'Todas las anteriores',
                 correcta: false,
                 justificacion:
                   'No es correcto. No es necesario hablar solo con el médico. Las páginas web confiables también son una fuente útil de información.',
+              },
+              {
+                respuesta: 'Todas las anteriores',
+                correcta: true,
+                justificacion:
+                  'Correcto. Puede obtener información útil de estas fuentes.',
               },
             ],
           },
