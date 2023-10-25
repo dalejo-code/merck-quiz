@@ -2,8 +2,9 @@
 
 Para generar la build de produccion debes configurar el archivo `.env`
 
-1. Crear el archivo `.env`
-2. Configurar las variables de entorno para el quiz, las posibles combinaciones son:
+1. Corre `npm install` para instalar todas las dependencias
+2. Crear el archivo `.env`
+3. Configurar las variables de entorno para el quiz, las posibles combinaciones son:
 
 - Para Español:
   - Standard DHC:
