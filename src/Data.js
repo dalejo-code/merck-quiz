@@ -873,14 +873,14 @@ const Data = {
                 respuesta: 'Hablar con el médico',
                 correcta: false,
                 justificacion:
-                  'No es correcto. También puede obtener información útil en páginas web confiables.',
+                  'No es correcto. No es necesario hablar solo con el médico. Las páginas web confiables también son una fuente útil de información.',
               },
               {
                 respuesta:
                   'Visitar páginas web confiables, por ejemplo, las que le recomiende el médico o las que estén avaladas por una organización especializada en crecimiento',
                 correcta: false,
                 justificacion:
-                  'No es correcto. No es necesario hablar solo con el médico. Las páginas web confiables también son una fuente útil de información.',
+                  'No es correcto. También puede obtener información útil en páginas web confiables.',
               },
               {
                 respuesta: 'Todas las anteriores',
